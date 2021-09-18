@@ -2,7 +2,7 @@
   "title": "Talking at Linux Lovingly",
   "url": "https://tatll.me/",
   "language": "en",
-  "description": "Web developer notes from a LAMP, Symfony, PHP, Javascript, Drupal, Node dev.",
+  "description": "Web developer notes emphasizing LAMP, Symfony, PHP, Javascript, Drupal, and Node.",
   "feed": {
     "subtitle": "Try again; fail better!",
     "filename": "feed.xml",

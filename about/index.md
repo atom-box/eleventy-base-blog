@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Evan Genest, Web Developer
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Evan Genest
   order: 3
 ---
 
-I am a person that writes stuff.
+Thanks for visiting my blog.  Do you have the inclination to write? I like to get email!
+My contact information is at [Little Furnace](https://littlefurnace.com)

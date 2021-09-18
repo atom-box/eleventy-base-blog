@@ -1,26 +1,45 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: Installing Eleventy
+description: 
+date: 2021-09-17
 tags:
-  - another tag
+  - apache
+  - deploy
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+I followed the instructions in the [11ty Github repo](https://github.com/atom-box/eleventy-base-blog/blob/master/install.md).
 
-## Section Header
+## One bug
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+I set Apache wrong.  I fixed this by making the server point to the `_site` directory in the project, not to the top level of my project.  
 
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+## How to configure input and output
 
-// Test with a line break above this line.
-console.log('Test');
+Eleventy can consume and build to wherever you like. To do this, the root directory should have a file called `.eleventy.js`. In the example below we set the *input* and *output* directories to be `src` and `build`:
+
 ```
+// eleventy.js
+module.exports = config => {
+
+  // 11ty defaults
+  return {
+
+    dir: {
+      input: 'src',
+      output: 'build'
+    }
+
+  };
+};
+
+```
+
+## Normal useage
+
+1. A single blog post is written as its own markdown file. Save it in the directory `posts`
+2. After saving it, rebuild the static site: `npx eleventy`
+
+## Styling
+
+To stay focused, I publicly pledge to not waste time styling this until October 1, 2021.
