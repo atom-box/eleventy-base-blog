@@ -12,7 +12,6 @@ The Evolving Web Complete Drupal Education Track offers an [a la cart six month 
 ![Course sequences at Evolving We](https://evolvingweb.ca/sites/default/files/2021-05/2.0%20-%20timeline%20-%20complete%20track%402x_2.png "sequences")
 
 ## UX Section Complete!
-![Course sequences at Evolving We](https://images.unsplash.com/photo-1608178398319-48f814d0750c)
-![Course sequences at Evolving We]("_site/img/EvanG-UX-and-Content-Strategy-for-Drupal-Training-Certificate.png")
-
+![UX Certificate for Evan Genest](https://tatll.me/img/EvanG-UX-and-Content-Strategy-for-Drupal-Training-Certificate.png)
+![Exciting Galaxy](https://images.unsplash.com/photo-1608178398319-48f814d0750c)
 
