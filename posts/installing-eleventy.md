@@ -40,6 +40,14 @@ module.exports = config => {
 1. A single blog post is written as its own markdown file. Save it in the directory `posts`
 2. After saving it, rebuild the static site: `npx eleventy`
 
+## Using an image
+
+Bryce Wray described how to add the Eleventy module for automatically sizing and generating images for different users viewports.
+
+The business end in your post, once you follow Bryce's [instructions](https://www.brycewray.com/posts/2021/04/using-eleventys-official-image-plugin/), ends up being a line in your post's markdown.
+
+The word `image` here calls the method for processing that image.
+
 ## Styling
 
 To stay focused, I publicly pledge to not waste time styling this until October 1, 2021.

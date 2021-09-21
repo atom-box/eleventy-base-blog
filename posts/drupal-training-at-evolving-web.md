@@ -1,5 +1,5 @@
 ---
-title: Evolving Web: My notes from Drupal class
+title: Sitebuilding notes from Drupal class
 description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
 date: 2021-09-14
 tags:

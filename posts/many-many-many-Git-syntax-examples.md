@@ -1,5 +1,5 @@
 ---
-title: Many Many Many Git Syntax Examples
+title: Many Many Git Syntax Examples
 description:
 date: 2020-03-15
 tags:
