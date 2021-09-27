@@ -1,0 +1,79 @@
+---
+title: Using Oracle locally from Ubuntu Linux
+description: Trying Oracle in the Browser
+date: 2021-09-24
+tags:
+  - oracle
+  - sql
+  - data visualization
+layout: layouts/post.njk
+---
+
+## Installing Oracle on Ubuntu Linux
+
+There are ways to install Oracle products locally to Linux [1](https://dbaontap.com/2017/08/20/install-sql-developer-ubuntu/) [2](https://dev.to/ishakantony/how-to-install-oracle-sql-developer-on-ubuntu-20-04-3jpd). Since I am just playing around, I have decided to use Oracle in the __browser__ by starting their cloud trial subscription.
+
+## Steps
+
+Getting started in their cloud took about 15 minutes.
+
+[Make an account](https://signup.cloud.oracle.com) for a free trial. They will ask for your credit card.
+
+[Set Up](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/access-traditional-cloud-account-services.html) the actual stuff in your cloud.
+
+## What is free
+
+Similar to Amazon, developers can get a free trial account but unlike AWS, part of the account seems to be perpetual. Oracle calls this core part "AlwaysFree" cloud services.
+
+The always free services you can use for an unlimited time:
+- two Oracle dbs with Application Express
+- SQL Developer
+- two VMs
+
+I suspect things that I want to use, like all the time, are going to be behind the paywall. Like I need to use Business Intelligence data visualizer.
+
+## What Linux means in Oracle-land
+
+Searching the term Linux comes up with various disparate things at Oracle.  There is [a version of the Linux kernel](https://yum.oracle.com/oracle-linux-downloads.html) to run in VMs sort of like AWS has Amazon Linux.  It is a version of Red Hat Linux. And then Oracle makes Java, so there is a Linux version of Java to download. And finally, you can download the Oracle DB itself, which is what I was looking for and ended up not using, because I am using their cloud to play with Oracle SQL db instead of installing it locally.
+
+## Homescreen
+
+Once you are signed in to Oracle Cloud, the User Interface looks very AWS-ish:
+
+{% image "oracle-cloud-homescreen.png", "The homescreen when you log into Oracle cloud" %}
+
+## Free Courses at Oracle
+
+These are some course sequences they have, with about an hour needed to view each path.
+
+1. [Autonomous Database](https://learn.oracle.com/ols/learning-path/autonomous-database-explorer/35573/79945) covers:
+
+    - Oracle Cloud Free Tier Program
+    - Autonomous Database
+    - SQL Developer Web
+    - Oracle Machine Learning
+    - Oracle APEX  
+
+
+2. [Oracle APEX](https://learn.oracle.com/ols/learning-path/oracle-apex-explorer/35573/80179) covers:
+    - Oracle APEX
+    - Create an Application
+    - SQL Workshop
+    - Data Workshop
+    - Reports
+    - Forms
+    - Migrating an Application  
+  
+  
+3. [SQL Explorer](https://learn.oracle.com/ols/learning-path/oracle-sql-explorer/38560/79918) covers:
+    - Introduction to SQL
+    - RDBMS concepts
+    - Human Resources (HR) Schema
+    - Writing SQL Statements
+    - Arithmetic Expressions in SQL Statements
+    - Column Aliases and Concatenation Operator
+    - Literal Character Strings
+    - Alternative Quote Operator
+    - DISTINCT Keyword
+    - DESCRIBE Command 
+    
