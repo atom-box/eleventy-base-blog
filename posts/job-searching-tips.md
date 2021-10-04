@@ -1,7 +1,7 @@
 ---
 title: How to find a job as a Junior Developer in Web Development
 description:
-date: 2019-05-01
+date: 2021-08-21
 tags:
   - junior developer
 
@@ -12,7 +12,7 @@ Job searching as a web developer with two years of professional experience has b
 
 ## The Job Title "Web Developer"
 
-If you search the ads for the job title "Web Developer", the job requirements don't usually ask for <3 years experience.  What I discovered is, there are LOTS of openings for people with 0 - 3 years of web developer experience. They justs aren't called that title. They are called *Customer Success, Customer Support, Support Engineer*, or similar.  Most companyies aren't desperate enough to recruit totally green devs and say "here's the keys, you drive for awhile". 
+If you search the ads for the job title "Web Developer", the job requirements don't usually ask for <3 years experience.  What I discovered is, there are LOTS of openings for people with 0 - 3 years of web developer experience; they are not called Web Developer positions. They are called *Customer Success, Customer Support, Support Engineer*, or similar.  Most companyies don't seem to recruit totally green devs and say "here's the keys, you drive for awhile". 
 
 ## Full Stack Developer
 
@@ -21,6 +21,10 @@ This is doubly true of "Full Stack Developer".  When someone says Full Stack, th
 ## There's gold at the bottom of the page
 
 Click the careers link at the bottom of the tech you use.  Node, Next, Github, Postman, Wordpress... all of these places hire developers.  
+
+## How many jobs are even advertised
+
+I heard 30% of the web developer openings get advertised on a paid ad site like Linked In. That was mentioned by Gergely Orosz, an Uber engineer who wrote The Tech Resume: Inside Out.  
 
 ## Do you love Rust?
 
