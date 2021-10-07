@@ -141,8 +141,6 @@ from_date: 1990-01-22
   to_date: 1996-11-09
 ```
 
-
-
 ## SQL Challenges, Zoo Animals
 
 I saved the following practice questions for SQL in an old notebook from 2017 so I'm archiving them here.  They were from a great Udacity course on Relational Databases. They dealt with a zoo inventory example but can be easily used with other example databases I think. I no longer have the example data though!
@@ -156,3 +154,13 @@ Use Count(), Sum(), and Min().
 Give all of the animals, a species at a time, sorted by age.  
 Add a new cheetah: Pablo, born yesterday.  
 Find the animals that are non-aquatic and eat fish.  
+
+## Some mysql examples
+
+```
+mysql> CREATE DATABASE golden_slumbers;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> GRANT ALL PRIVILEGES ON golden_slumbers.* to 'lennonMcCartney'@localhost;
+Query OK, 0 rows affected (0.01 sec)
+```

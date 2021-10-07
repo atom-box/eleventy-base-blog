@@ -12,14 +12,21 @@ layout: layouts/post.njk
 2. Picture somebody climbing a tree with an ax. She's working. She's far from any type of theater stage.  *working tree* === *unstaged*
 
 ## Reset
-git reset -- hard  MESSES WITH YOUR ACTUAL HARDDRIVE
-git reset -- soft  JUST CLEARS THE DECK IN GIT AWARENESS, BACK TO WHEREVER
-git reset --hard   THIS IS ENOUGH TO ROLL BACK THE TREE TO your last commit. No head detachment issues this way.
+```
+git reset -- hard  ## MESSES WITH YOUR ACTUAL HARDDRIVE
+git reset -- soft  ## JUST CLEARS THE DECK IN GIT AWARENESS, BACK TO WHEREVER
+git reset --hard   ## THIS IS ENOUGH TO ROLL BACK THE TREE TO your last commit. No head detachment issues this way.
+```
 
 ## git help reset has gooder than usual examples
-git reset (unstages stuff)
-git reset GIT HELP RESET has millions of examples !!!
+For unstaging stuff.
 
+`GIT HELP RESET` has millions of examples !!!
+
+## Look at the remote branch before you PULL it in
+
+  
+`git diff origin/master`
 
 ## Greatest Git examples from StackOverflow
 

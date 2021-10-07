@@ -1,5 +1,5 @@
 ---
-title: Option examples of BASh Find and Grep
+title: Common examples of Find and Grep
 description:
 date: 2021-10-04
 tags:
