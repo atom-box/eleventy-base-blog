@@ -13,20 +13,25 @@ layout: layouts/post.njk
 
 Some things I've learned in my first few months of using Drupal.
 
-## Making something that has many sibling things
+## How to make a thing that has many sibling things
 
-Create content will have two options. Of these two options, *create basic article* has options like tags and images built in, *create basic page* has no images, no tags.
+1. Create content will have two options.  
+2. Of these two options,  
+    *create basic article* has options like tags and images built in,   
+    *create basic page* has no images, no tags.  
 
 Uploaded files and images can be browsed from Admin->Content->Files tab. They end up there automatically without you putting them there.
 
-## Make something that is one of a kind, siblingless
+## How to make something that is one of a kind, siblingless
 
 1.Make a custom block Structure->blocks->custom block
 2.Place it            Structure->blocks->block layout
 
 Don't think of blocks as content. They are more like a footer or sidebar or modal.
 
-## UX
+## General notes on what UX phase of the project should look like
+
+I learned all this at a well-worth-it one week course from Evolving Web.  
 
 Before starting to code, the site needs to be planned. Green field development can follow the steps below.  Notice that the actual coding comes pretty late in the sequence:
 
@@ -44,6 +49,8 @@ Before starting to code, the site needs to be planned. Green field development c
 6. Concept! Let the designers mock up some pages.
 7. Develop. Realize the site in code.
 8. Continuous Improvement.
+
+## Here are the kinds of brainstorms that UX folks do
 
 ### Result of a team brainstorming session about user journeys
 {% image "journeys-whiteboard-at-Miro.png", "A whiteboard with many completed post it notes and scribblings on it" %}
