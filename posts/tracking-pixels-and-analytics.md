@@ -1,7 +1,7 @@
 ---
 title: Tracking Pixels and Analytics
 description:
-date: 2020-11-01
+date: 2021-11-01
 tags:
   - analytics
 layout: layouts/post.njk
