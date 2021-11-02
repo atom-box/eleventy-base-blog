@@ -1,5 +1,5 @@
 ---
-title: Tracking Pixels and Analytics
+title: Examples of Site Analytics Tags
 description:
 date: 2021-11-01
 tags:
@@ -7,23 +7,10 @@ tags:
 layout: layouts/post.njk
 ---
 
-## Caveman style tracking
+### Comparison of the tracking tags in a few public sites
+Javascript code for monitoring site traffic is  often placed in the very top of the html of a page. But it can be placed in the very bottom too. Here are the short tracking scripts I found in the html of some public sites.
 
-To check traffic, try looking at the server's logs. These are stored wherever the Apache configuration says to store them.  Mine are usually at `/var/log/apache2/`. This is probably a dumb way for me to do it but I can *crudely* compare relative access frequency for my *pikl.me* and *tatll.me* sites:
-
-```bash
-evan@nodejs-nyc:~$ sudo tail -n 300 /var/log/apache2/access.log | grep pikl | wc
-     10     211    2189
-evan@nodejs-nyc:~$ sudo tail -n 300 /var/log/apache2/access.log | grep tatll | wc
-      8     175    1980
-```
-
-## Comparison of the tracking tags in a few public sites
-
-These are the tracking scripts I found in the `<head>` section of some sites.
-
-
-### Weather
+### Government website: The NOAA Weather page
 From `<head>` at the top of the homepage of weather.gov
 
 ```html
@@ -40,7 +27,7 @@ From `<head>` at the top of the homepage of weather.gov
 ```
 
 ### CSS Tricks
-From the end of `<body>` at the bottom of the csstricks.com homepage
+Chris Coyer is of course an expert in best practices. And he prefers to put the tracking script way down at the end of `<body>` at the bottom of the csstricks.com homepage.
 
 ```html
 
@@ -89,7 +76,7 @@ From the end of `<body>` at the bottom of the csstricks.com homepage
 </script>
 ```
 
-### National Radio from France
+### French web site: Inter Radio
 From `<head>` at the top of the  of the www.franceinter.fr homepage body
 
 ```html
@@ -191,7 +178,7 @@ Browserling is a cross browser tester. Browserling has many free public tools. T
     </script>
 ```
 
-### The science journal Nature  
+### A high traffic journal, aimed at academia: Nature  
 From <head> at the top of the nature.com homepage  
 
 ```html
@@ -242,6 +229,27 @@ From <head> at the top of the nature.com homepage
     f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NWDMT9Q');
 </script>
+```
+
+## A university org
+
+This is at the top of `<head>` at scout.wisc.edu.
+
+```html
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-856016-3", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+```
+
+## Amazon affiliate
+
+Some sites track their traffic by just tracking their clickthrough to a paying affiliate. This is centslessbooks.com
+
+```html
+
+			<a
+				class="audible-button"
+				onclick="ga('send', 'event', 'Audible Click');"
+				href="https://www.amazon.com/Audible-Free-Trial-Digital-Membership/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=promocents-20&linkId=d050ea3033d623c41fe6d7f076af36c5"
+			>
 ```
 
 ## Tealium 1
@@ -777,4 +785,15 @@ window.NREUM || (NREUM = {}), __nr_require = function(t, e, n) {
 }, {}, [ "loader" ]);
 ```
 
+
+## Caveman style tracking
+
+To check traffic manually, without analytics sites, try looking at the server's logs. These are stored wherever the Apache configuration says to store them.  Mine are usually at `/var/log/apache2/`. This is probably a dumb way for me to do it but I can *crudely* compare relative access frequency for my *pikl.me* and *tatll.me* sites:
+
+```bash
+evan@nodejs-nyc:~$ sudo tail -n 300 /var/log/apache2/access.log | grep pikl | wc
+     10     211    2189
+evan@nodejs-nyc:~$ sudo tail -n 300 /var/log/apache2/access.log | grep tatll | wc
+      8     175    1980
+```
 

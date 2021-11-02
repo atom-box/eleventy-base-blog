@@ -1,7 +1,7 @@
 ---
 title: Building a Drupal Site
 description:
-date: 2021-09-21
+date: 2021-05-21
 tags:
   - drupal
   - ux
@@ -9,9 +9,9 @@ layout: layouts/post.njk
 ---
 
 
-# Building Sites in Drupal 9
+# Personal notes
 
-Some things I've learned in my first few months of using Drupal.
+These are mostly for me, maybe not readable by anyone else.
 
 ## How to make a thing that has many sibling things
 
@@ -29,11 +29,11 @@ Uploaded files and images can be browsed from Admin->Content->Files tab. They en
 
 Don't think of blocks as content. They are more like a footer or sidebar or modal.
 
-## General notes on what UX phase of the project should look like
+## An overview of how the UX planning goes when planning a site
 
 I learned all this at a well-worth-it one week course from Evolving Web.  
 
-Before starting to code, the site needs to be planned. Green field development can follow the steps below.  Notice that the actual coding comes pretty late in the sequence:
+Before starting to code, the site needs to be planned. Both a redesign or green field development can follow the steps below.  Notice that the actual coding comes pretty late in the sequence:
 
 1. Questionaires.  Get out of your own head. The closer you get to what your real users are like the more they will enjoy what you build.
 2. Develop fictional personas.
