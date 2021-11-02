@@ -8,8 +8,6 @@ layout: layouts/post.njk
 ---
 
 
-#
-
 ## Make the API
 
 1. Make sure Mongo DB is [installed](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) and running:
