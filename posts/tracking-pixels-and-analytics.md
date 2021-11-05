@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-### Comparison of the tracking tags in a few public sites
+## Comparison of the tracking tags in a few public sites
 Javascript code for monitoring site traffic is  often placed in the very top of the html of a page. But it can be placed in the very bottom too. Here are the short tracking scripts I found in the html of some public sites.
 
 ### Government website: The NOAA Weather page
@@ -784,7 +784,6 @@ window.NREUM || (NREUM = {}), __nr_require = function(t, e, n) {
     }, {} ]
 }, {}, [ "loader" ]);
 ```
-
 
 ## Caveman style tracking
 
