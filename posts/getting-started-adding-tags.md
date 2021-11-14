@@ -1,5 +1,5 @@
 ---
-title: Getting started with adding tags Tealium style
+title: Quick survey of the Javascript loaded by the Tealium demo page
 description:
 date: 2021-11-04
 tags:

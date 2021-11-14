@@ -8,7 +8,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-Find and Grep are friends. See also my earlier post, *SED and TR are friends*.
+Find and Grep are friends. I memorize *Grep* syntax pretty well but mix up things in the *Find* syntax. So here are my personal examples to refer to.  
 
 ## Easy examples with FIND in Linux BASh
 
