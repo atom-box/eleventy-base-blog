@@ -1,5 +1,5 @@
 ---
-title:  FAQs
+title:  Highlights of what gets installed in a Matomo Web Analytics set up
 description: Beginners Guide How to Install Matomo analytics
 date: 2021-11-12
 tags:
