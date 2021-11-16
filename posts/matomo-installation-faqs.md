@@ -1,5 +1,5 @@
 ---
-title:  Highlights of what gets installed in a Matomo Web Analytics set up
+title:  Matomo specs and dependencies
 description: Beginners Guide How to Install Matomo analytics
 date: 2021-11-12
 tags:
@@ -14,6 +14,15 @@ A: Server might not be able to store that much data.
 ## Size of the Matomo download __on the server__
 
 79460kB (79MB)  
+
+## Size of what is loaded to browser  
+The client in each case gets ever smaller downloads:  
+- Google Analytics 40kB
+- Matomo Analytics 20 kB
+- Plausible Analytics 1 kB  
+(source: Plausible team talking on the Changelog podcast)  
+Caveat: I don't know if Mobile download is different.  
+
 
 ## Node modules and sizes in Matomo
 

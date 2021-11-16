@@ -11,19 +11,17 @@ layout: layouts/post.njk
 
 I don't recommend reading this article, it is a personal souvineer so I can look back in the future and see where I have been, what I was learning month to month. Now I am learning the web analytics platform Matomo.  
   
+
+## Best place to read about Matomo  
 If *you* want to learn about Matomo, go to the official help site itself: https://matomo.org/help/  It is readable, organized, clear.  And if you go down the many roads, it is enormous, but upon first arriving, it doesn't feel enormous.  You only encounter the enormity once you go to your section of interest.  Once there, things can go deeper and deeper. But only if you keep digging.  The overall UX is excellent, in other words: the site opens up like a fractal in a video game where you walk closer and closer to a distant cliff in the video game and the landscape resolution keeps improving.   
   
 What follows is a random fly by of Matomo's docs.  
 
-## Going 100% Cookieless
 
-To avoid needing a banner on sites, users can go cookieless.  
-    
-Cookieless options in Matomo:
+## Glossary of Analytics Terms  
+There is a helpful glossary with ~200 terms.  
+https://glossary.matomo.org/  
 
-* If using the JavaScript tracker you simply disable cookies for all visitors. This comes at a cost to report accuracy.
-* You can use Log Analytics to generate all reports from web server logs like Apache and Nginx without using any JavaScript tracker.
-* Track your visitors with SDKs directly from within your application (for example PHP, C#, Java).
 
 ## Ten ways to *troubleshoot* Matomo
 1. After updating, Matomo stopped working
@@ -82,6 +80,17 @@ https://matomo.org/faq/troubleshooting/faq_42/
 
 In Matomo page views can become less than Visitors, due to the CDN
 https://forum.matomo.org/t/more-visists-than-pageviews-how-is-this-possible/43717  
+
+
+## Going 100% Cookieless
+
+To avoid needing a banner on sites, users can go cookieless.  
+    
+Cookieless options in Matomo:
+
+* If using the JavaScript tracker you simply disable cookies for all visitors. This comes at a cost to report accuracy.
+* You can use Log Analytics to generate all reports from web server logs like Apache and Nginx without using any JavaScript tracker.
+* Track your visitors with SDKs directly from within your application (for example PHP, C#, Java).
 
 ## Language of questions asked at the Matomo site
 The site is mainly in English but the user forum posts for the last 30 days are also: 15 German, 4 French, 52 Spanish, 34 Italian
@@ -219,8 +228,3 @@ Videos in the [User Guides](https://matomo.org/docs/):
     Importing Google Analytics data into Matomo
     Matomo Analytics for WordPress
 
-
-
-## Glossary of Analytics Terms  
-There is a helpful glossary with ~200 terms.  
-https://glossary.matomo.org/  

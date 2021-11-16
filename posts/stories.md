@@ -19,6 +19,12 @@ Returning to Symfony, spinning up this http://clue.school project I made.
 
 I'm super facile with __deploying__.  I impulsively bought three URLs, made an A record at the rackspace, made the DNS forwarding at the Domain Server, SSH'ing in and made a new server block in my Apache at the rack.  Did that all in less than an hour. Without looking ANYTHING up. Feels almost crazy that I could do that. End result: a URL that had never existed in the history of the world now exists and it says *hello*.
 
+### Do you like to work hard
+My productivity systems are Pomodoro (check out the one I am building at https://clue.school), Steven Covey, time of day understandings, lists, GTD: Getting Things Done  
+My organizing system is iPhone lists.  My blog.  
+My learning system is github.com heatmap. And the Cornell Notes reviewing of indexed written notebooks.  
+
+
 ### Looks great, quickly
 
 Throwing together a whole clean __style__ I shopped around for "lightweight css template".  Got a whole framework and a great template.  Had the whole thing live and serving in production, including writing a bunch of content and figuring out that the icons were from 2017, v4 of fontawesome.  Did all that in 2 hours.  I used to take like a week to write the divs, the classes, get Gulpfile working.  Don't!  You're not applying for a CSS job!  Feels great!!
