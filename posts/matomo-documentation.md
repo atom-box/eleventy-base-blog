@@ -13,7 +13,9 @@ I don't recommend reading this article, it is a personal souvineer so I can look
   
 
 ## Best place to read about Matomo  
-If *you* want to learn about Matomo, go to the official help site itself: https://matomo.org/help/  It is readable, organized, clear.  And if you go down the many roads, it is enormous, but upon first arriving, it doesn't feel enormous.  You only encounter the enormity once you go to your section of interest.  Once there, things can go deeper and deeper. But only if you keep digging.  The overall UX is excellent, in other words: the site opens up like a fractal in a video game where you walk closer and closer to a distant cliff in the video game and the landscape resolution keeps improving.   
+If *you* want to learn about Matomo, go to the official help site itself. Make this page your home page for explorations, it leads to all of the good stuff: https://matomo.org/help/    
+  
+The Help docs are readable, organized, clear.  And if you go down the many roads, the site is enormous, but upon first arriving, it doesn't feel enormous.  You only encounter the enormity once you go to your section of interest.  Once there, things can go deeper and deeper. But only if you keep digging.  The overall UX is excellent, in other words: the site opens up like a fractal in a video game where you walk closer and closer to a distant cliff in the video game and the landscape resolution keeps improving.   
   
 What follows is a random fly by of Matomo's docs.  
 
@@ -93,7 +95,7 @@ Cookieless options in Matomo:
 * Track your visitors with SDKs directly from within your application (for example PHP, C#, Java).
 
 ## Language of questions asked at the Matomo site
-The site is mainly in English but the user forum posts for the last 30 days are also: 15 German, 4 French, 52 Spanish, 34 Italian
+The site is mainly in English but the [user forum](https://forum.matomo.org/) posts for the last 30 days are also: 15 German, 4 French, 52 Spanish, 34 Italian
 
 # General places to go
 
@@ -104,7 +106,7 @@ https://github.com/matomo-org/matomo/issues
 
 ## Forum: Most-asked questions in the forum
 
-It is awesome to see that the forum is sortable by most viewed, most replied, and date.
+It is awesome to see that the [forum](https://forum.matomo.org/) is sortable by most viewed, most replied, and date.
 
 Most highly viewed in __General__ thread:  
 Tag Manager questions, generally   
