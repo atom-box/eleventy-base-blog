@@ -25,7 +25,9 @@ There is a helpful glossary with ~200 terms.
 https://glossary.matomo.org/  
 
 
-## Ten ways to *troubleshoot* Matomo
+## Ten common examples to *troubleshooting* actions
+Find the pattern in where to look, what to check, what to ask. These solutions can be extended to other, seemingly novel problems:  
+
 1. After updating, Matomo stopped working
 - clear your cache (CTL-SHIFT-DEL)
 - try a different browser
@@ -72,31 +74,6 @@ Causes of discrepent tracking:
 - are the JS scripts located in the same part of the page or possibly absent on some pages on one data analyzer?
 - where on the page is the script? you have to locate it consistantly across the two analyzers  
 
-
-## Periodically delete the older data
-
-If you have properly setup the auto archiving script (see important note), you will still access all historical reports (even when RAW data is deleted). Delete the raw data in SQL, or the command line, or in the GUI dashboard.  
-https://matomo.org/faq/troubleshooting/faq_42/  
-
-## Random fact from the forums: CDN can affect analytics
-
-In Matomo page views can become less than Visitors, due to the CDN
-https://forum.matomo.org/t/more-visists-than-pageviews-how-is-this-possible/43717  
-
-
-## Going 100% Cookieless
-
-To avoid needing a banner on sites, users can go cookieless.  
-    
-Cookieless options in Matomo:
-
-* If using the JavaScript tracker you simply disable cookies for all visitors. This comes at a cost to report accuracy.
-* You can use Log Analytics to generate all reports from web server logs like Apache and Nginx without using any JavaScript tracker.
-* Track your visitors with SDKs directly from within your application (for example PHP, C#, Java).
-
-## Language of questions asked at the Matomo site
-The site is mainly in English but the [user forum](https://forum.matomo.org/) posts for the last 30 days are also: 15 German, 4 French, 52 Spanish, 34 Italian
-
 # General places to go
 
 ## Issues at GitHub  
@@ -120,7 +97,7 @@ https://forum.matomo.org/c/tag-manager/19?order=views
 
 
 ## FAQs
-There are 950 Frequently Asked questions.  
+There are 950 [Frequently Asked Questions](https://matomo.org/faq/).  
 The categories of FAQs are  
 
     New to Matomo
@@ -230,3 +207,28 @@ Videos in the [User Guides](https://matomo.org/docs/):
     Importing Google Analytics data into Matomo
     Matomo Analytics for WordPress
 
+# Random things I noted 
+
+## Your db is not infinite! Periodically delete the older data
+
+If you have properly setup the auto archiving script (see important note), you will still access all historical reports (even when RAW data is deleted). Delete the raw data in SQL, or the command line, or in the GUI dashboard.  
+https://matomo.org/faq/troubleshooting/faq_42/  
+
+## Random fact from the forums: CDN can affect analytics
+
+In Matomo page views can become less than Visitors, due to the CDN
+https://forum.matomo.org/t/more-visists-than-pageviews-how-is-this-possible/43717  
+
+
+## Going 100% Cookieless
+
+To avoid needing a banner on sites, users can go cookieless.  
+    
+Cookieless options in Matomo:
+
+* If using the JavaScript tracker you simply disable cookies for all visitors. This comes at a cost to report accuracy.
+* You can use Log Analytics to generate all reports from web server logs like Apache and Nginx without using any JavaScript tracker.
+* Track your visitors with SDKs directly from within your application (for example PHP, C#, Java).
+
+## Language of questions asked at the Matomo site
+The site is mainly in English but the [user forum](https://forum.matomo.org/) posts for the last 30 days are also: 15 German, 4 French, 52 Spanish, 34 Italian
