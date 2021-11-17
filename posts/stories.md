@@ -22,7 +22,11 @@ Returning to Symfony, spinning up this http://clue.school project I made.
 
 Starting in June, 2021 I'm super facile with __deploying__.  I impulsively bought three URLs, made an A record at the rackspace, made the DNS forwarding at the Domain Server, SSH'ing in and made a new server block in my Apache at the rack.  Did that all in less than an hour. Without looking ANYTHING up. Feels almost crazy that I could do that. End result: a URL that had never existed in the history of the world now exists and it says *hello*.
 
-### Story about hard work  
+
+### Story 1 about hard work  
+{% image "journeys-whiteboard-at-Miro.png", "A whiteboard with many completed post it notes and scribblings on it" %}
+
+### Story 2 about hard work  
 I haven't conceptualized Working hard <----> Not working hard. I think ALL THE TIME about ticking off my to do list.  (Same as anyone in any job with any autonomy...)  My tools are different-time-of-day awareness: work great 6am to 10am and second burst from 3pm until 8pm.  And externalizing the task switcher: to a timer.  I recently stopped doing this with a spiral pad held down with a pomodoro paper weight. It's less organic/charming but Gnu Calendar is clean, great example of Gnu's design-sense and UI.  
 
 Steven Covey's Seven Habits and Howard Gardener's lists (Getting Things Done) are ingrained in my strategies, for years now.
