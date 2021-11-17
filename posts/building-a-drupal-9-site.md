@@ -53,7 +53,8 @@ Before starting to code, the site needs to be planned. Both a redesign or green 
 ## Here are the kinds of brainstorms that UX folks do
 
 ### Result of a team brainstorming session about user journeys
-{% image "journeys-whiteboard-at-Miro.png", "A whiteboard with many completed post it notes and scribblings on it" %}
+{% image "github-heatmap-2021.png", "Heatmap of Evan Genest's activity at his GitHub repository" %}
+{% image "github-codereview-2020.png", "Pull Requests and Code Review by Evan Genest while a Back End Developer on the team at OfficeSupply.com in 2020" %}
 
 ### Result of a team brainstorming session about user personas
 {% image "personas-whiteboard-at-Miro.png", "A whiteboard with many completed post it notes and scribblings on it" %}
