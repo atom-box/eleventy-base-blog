@@ -1,7 +1,7 @@
 ---
 title: Great SQL data set for SQL Challenges
 description:
-date: 2017-11-17
+date: 2021-11-17
 tags:
   - SQL
 
