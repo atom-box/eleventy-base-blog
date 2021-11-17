@@ -1,7 +1,7 @@
 ---
-title: SQL Challenges
+title: Great SQL data set for SQL Challenges
 description:
-date: 2017-12-02
+date: 2017-11-17
 tags:
   - SQL
 

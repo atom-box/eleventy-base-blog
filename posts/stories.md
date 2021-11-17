@@ -1,5 +1,5 @@
 ---
-title: Tell me an example where you...
+title: Tell Us About Yourself
 description:
 date: 1970-01-01
 tags:
@@ -8,13 +8,16 @@ tags:
 layout: layouts/post.njk
 ---
 
-# Tell us about yourself
-
 I have a blankout when a stranger asks me this, especially on a remote Zoom Call where I'm also being asked to whiteboard Fizz Buzz. A lot of stuff that happens, I forget it when asked about it later. I am jotting some *happenings* here therefore so in the future I may have fewer *wonderings*.
 
-## Story about a victory
+## Where are you at? What do you want?  What have you been learning?  
+I want to be somewhere and be good at it.  This summer has been trying to find a parking spot. I thought my self learned LAMP stack was good but I lacked the kind of final year of college thing. I needed to go fuller in one direction. I had the curse of liking a lot of it.  Hence Drupal, Symfony hours of tutorials, full on data, all while job searching. All the while, I was misunderstanding Customer Service -- it's difficult and legit use of coding problem solving and it pays well.  
 
-Date: 10-03-2021  
+My identity goal might be: he's smart at something + at work, his phone never stops ringing. And provide for my family in a field with good pay that is not going away between now and 2040. And looking at narrow coding things that are over and done in 30 to 90 minutes.
+
+Keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. Unfortunately that will never build some big focused result.  That meshes really well with Customer Service in a role that touches something similar to a LAMP stack.  And probably not at someplace like a network troubleshooter: too far afield. Customer service at Cloudflare would be like starting all over again.  Same with 1010Data.  
+
+## Story about a victory
 
 Returning to Symfony, spinning up this http://clue.school project I made.  
 
