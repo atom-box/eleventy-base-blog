@@ -24,7 +24,12 @@ Starting in June, 2021 I'm super facile with __deploying__.  I impulsively bough
 
 
 ### Story 1 about hard work  
-{% image "journeys-whiteboard-at-Miro.png", "A whiteboard with many completed post it notes and scribblings on it" %}
+I have had a pretty constant coding habit.  The gaps in my repository commits came at three times this year when I was learning things that had little to do with commiting files:
+1. Symfonycasts tutorials in May 2021  
+2. Drupal tutorials in August 2021  
+3.  Google Analytics, Tealium, and Matomo tag manager in October 2021  
+{% image "github-heatmap-2021.png", "Heatmap of Evan Genest's activity at his GitHub repository" %}
+
 
 ### Story 2 about hard work  
 I haven't conceptualized Working hard <----> Not working hard. I think ALL THE TIME about ticking off my to do list.  (Same as anyone in any job with any autonomy...)  My tools are different-time-of-day awareness: work great 6am to 10am and second burst from 3pm until 8pm.  And externalizing the task switcher: to a timer.  I recently stopped doing this with a spiral pad held down with a pomodoro paper weight. It's less organic/charming but Gnu Calendar is clean, great example of Gnu's design-sense and UI.  
@@ -36,6 +41,12 @@ My lists and prioritizing system are iPhone lists and my bloggish things, incl T
 Yes, focusing, not finishing the project, like https://clue.school...
 
 After leaving my back end job in April 2021 I knew I needed a few weeks (months really but was impatient) of specific, added skills before I could apply succesfully for positions.  I circled my car around a parking lot: I did 3 week chunks of: __Symfony__ exercises/videos (shout-out to Ryan Weaver and Symfonycasts), __Drupal__ (many sources, shout out to some of the Template designers, to Evolving Web of Montreal, to OS Learning Drupal videos, to Web Wash), building out my sites at [Pikl](https://pikl.us/), [Drupal Farm](https://drupal.farm/), and [Clue School](https://www.clue.school/)
+
+## Why did you leave your last job  
+After a year and 3 months at OfficeSupply.com I got replaced by a developer with more experience: 5+ years versus my 0 years.  Things went well during my year there. I was proud when I began to get a signal for doing Code Reviews and making Pull Requests in their repo at Github:   
+
+{% image "github-codereview-2020.png", "Pull Requests and Code Review by Evan Genest while a Back End Developer on the team at OfficeSupply.com in 2020" %}
+
 
 ### A tech problem I solved: good looking CSS   
 
