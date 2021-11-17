@@ -164,3 +164,9 @@ Query OK, 1 row affected (0.02 sec)
 mysql> GRANT ALL PRIVILEGES ON golden_slumbers.* to 'lennonMcCartney'@localhost;
 Query OK, 0 rows affected (0.01 sec)
 ```
+## One SQL Assessment I took in 2019
+
+Here is an assessment of my SQL knowledge in 2019.  
+
+A recruiter let me take this SQL test. During the test I noticed a lot of questions for Microsoft SQL Server. I had never heard of that software before. The red parts I *circled* are those questions:
+{% image "sql-test-but-for-sql-server.png", "Test Score Results of Evan Genest, in 2019, taking a test of SQL Server knowledge even though he did not ever use SQL Server" %}

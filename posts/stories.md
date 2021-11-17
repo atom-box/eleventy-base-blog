@@ -61,7 +61,19 @@ I was too prideful before to do this but also I didn't know resources. I went th
 
 Started building Static Node.js web server: Eleventy too.  
 
- 
+## TELL ABOUT YOURSELF, Biz speak version: 
+I was described by a recruiter as follows. It feels...strange. Helpful to know though the words for describing myself in biz-speak, knowing how the creatures of business speak to one another.  
+
+*"Evan Genest has 3 years of experience in the industry. He is local to Madison, Wisconsin, and is very interested in hearing more about this opportunity with Foo Bar Baz."*
+
+*"Evan is passionate about software support, in his role as a Customer Success Agent for Scooter Software, he was providing troubleshooting and support on their software, hardware, and infrastructure.  He conducted technical demos for clients, created technical documentation for power users, and has hands-on experience with database and server logs.  He's great with software, has a lot of experience working in SQL, performing manual testing, and ensuring customer satisfaction as often as he can."*
+
+And then he skipped anything else, including my much harder job I went to after that. Keep it short, focused. Nobody wants to read more than five sentences. About anything.  
+
+Not crazy about the word choice *passionate*, LOL. Ardent or conscientious maybe are okay, but I am not "passionate" about business correspondance. Intense and driven maybe, from the point of view of crossing tasks off of a todo list on my plate.  
+
+Reading more Seth Godin books could cultivate an articulate version of the above, something more pleasant, less business drone.
+
 ### Errors and error messages
 
 And just as good as those two things: little bugs in serving a first landing page from Twig are no big deal.  The error messages are not really enough to be docs.  You gotta already know the rough outline of which actors should be present.  All those months at DOI I would have to unspool the errors a line at a time with no knowledge of what was there.  YOu can't really backwards trace the breadcrumbs like that.  So...
