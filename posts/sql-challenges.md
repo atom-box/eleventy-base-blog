@@ -8,18 +8,22 @@ tags:
 layout: layouts/post.njk
 ---
 
-Stay sharp by practicing SQL! This is a good introduction to getting started with MySQL but it works with PostGreSQL, SQLite, et al.  __This is just a messy grab bag of mySQL notes.__
+Caveat: __This is just a messy grab bag of mySQL notes.__
 
-## Download some test data to use with the challenges in the next section
+Here are some specific exercises for warming up or staying practiced SQL! I am using MySQL but this all seems agnostic: the following should work with PostGreSQL, SQLite, MariaDB, et al. 
 
-A good sample database is [Employee Test DB](https://github.com/datacharmer/test_db). It has 300,000 example employees and 1 million salary records. A readme with the data has a small qualifier. It says *The data was generated, and as such there are inconsistencies and subtle problems. Rather than removing them, we decided to leave the contents untouched, and use these issues as data cleaning exercises.*  Regarding this, I did notice that for a given last name there will be 150 people with that last name.
+# Activity 1: Try the Test db *Employees* from the DataCharmer repository
 
-To get the SQL example data, clone the above repo, and then run from the CLI, as super user like this.  
+A good sample database is here: [Employee Test DB](https://github.com/datacharmer/test_db). (This is a large db; scroll down to Activity 2 if you need something smaller.)
+
+This db has 300,000 example employees and 1 million salary records. A README in this repository gives one caveat: *This data was generated, and as such there are inconsistencies and subtle problems. Rather than removing them, we decided to leave the contents untouched, and use these issues as data cleaning exercises.*  When you use the db you may notice that for a given last name there will be 150 people with that last name. Always.  So the data really is just a bunch of dice being rolled.  
+
+To get started, clone the repo [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) and then run from the CLI, as super user like this.  
 ```
 $ sudo mysql < employees.sql
 ```
 
-## Challenges
+## Exercises
 
 Solve each SQL challenge using a SQL query.  (Scroll down for solutions.)
 
@@ -27,7 +31,7 @@ Solve each SQL challenge using a SQL query.  (Scroll down for solutions.)
 2. Show a list of all __department numbers__ and employees per department, with them ranked by the departments with the most employees first.  Show the departments by their department numbers only.
 3. Rank the departments by average age of their employees, show the departments by their department number only.    
 
-## Solutions
+## My Solutions
 
 1. `mysql> SELECT first_name, last_name, birth_date FROM employees WHERE last_name LIKE 'g%' ORDER BY birth_date  ASC;`
 2. `mysql> SELECT count(d.dept_no) AS employees, d.dept_no from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;`
@@ -35,11 +39,16 @@ Solve each SQL challenge using a SQL query.  (Scroll down for solutions.)
 ```mysql> SELECT count(d.dept_no) AS employees, d.dept_no, DATEDIFF(curdate(),  '1965-01-27')/365  from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;```
 
 
-## Handy commands
+# General notes for MySQL
 
-### Describe ALL tables in EXAMPLE
+## Describe ALL tables in EXAMPLE
+This is my favorite command. Working in the terminal these two lines give a flyby of the data schema.
 
-`SELECT TABLE_NAME, COLUMN_NAME  FROM information_schema.columns WHERE table_schema = 'employees' ;`
+```
+SELECT TABLE_NAME, COLUMN_NAME  FROM information_schema.columns WHERE table_schema = 'employees' ;
+
+SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE table_schema = 'employees' ORDER BY COLUMN_NAME;
+```
 
 ### Find the gap between two dates.  
 
@@ -49,13 +58,14 @@ Find the gap between two dates. Return the answer in days.
 
 date1, date2 (Required). Two dates to calculate the number of days between. (date1 - date2)
 
-### Get a new date by removing some interval out of a given date
+### Subtracting! Dates!
+Get a new date by removing some interval out of a given date
 
 This is interesting functionality, because I *think* dates are strings. Or are they stored as an integer, like Epoch? Anyway this feels pretty deluxe.
 
-`DATE_SUB(date, INTERVAL value interval)`
-
-#### Parameter Values
+`DATE_SUB(date, INTERVAL value interval)`  
+  
+where the parameters are:  
 
 - date (Required). The date to be modified
 - value (Required). The value of the time/date interval to subtract. Both positive and negative values are allowed
@@ -82,10 +92,14 @@ This is interesting functionality, because I *think* dates are strings. Or are t
     * DAY_MINUTE
     * DAY_HOUR
     * YEAR_MONTH
+  
+    
 
-## Resources
+# Activity 2: Try the employees db at SQLTutorial website
 
-There is a smaller database of employees at [sqltutorial.org](https://www.sqltutorial.org/sql-sample-database/). It is loaded by just cut an d paste, in case that is easier for you.
+Here is a database (but for now, no exercises).  
+
+The database of employees is at [sqltutorial.org](https://www.sqltutorial.org/sql-sample-database/). It is small and can be loaded by just cut and paste, in case that is easier for you than using the gigantic db in Activity 1.
 
 
 ## Example rows from the EMPLOYEES database
@@ -141,7 +155,9 @@ from_date: 1990-01-22
   to_date: 1996-11-09
 ```
 
-## SQL Challenges, Zoo Animals
+# Activity 3: Zoo Animals
+
+Here are some questions but no db to go with them yet.  
 
 I saved the following practice questions for SQL in an old notebook from 2017 so I'm archiving them here.  They were from a great Udacity course on Relational Databases. They dealt with a zoo inventory example but can be easily used with other example databases I think. I no longer have the example data though!
 
@@ -155,8 +171,8 @@ Give all of the animals, a species at a time, sorted by age.
 Add a new cheetah: Pablo, born yesterday.  
 Find the animals that are non-aquatic and eat fish.  
 
-## Some mysql examples
-
+# Creating a db and a user  
+This is useful when starting a new LAMP site, such as a Drupal or Symfony project:
 ```
 mysql> CREATE DATABASE golden_slumbers;
 Query OK, 1 row affected (0.02 sec)
@@ -164,9 +180,12 @@ Query OK, 1 row affected (0.02 sec)
 mysql> GRANT ALL PRIVILEGES ON golden_slumbers.* to 'lennonMcCartney'@localhost;
 Query OK, 0 rows affected (0.01 sec)
 ```
-## One SQL Assessment I took in 2019
+# One SQL Assessment I took in 2019
 
-Here is an assessment of my SQL knowledge in 2019.  
+Robert Half Associates (a recruiter) let me take a SQL test in 2019. Here's a screenshot of my results.  
 
-A recruiter let me take this SQL test. During the test I noticed a lot of questions for Microsoft SQL Server. I had never heard of that software before. The red parts I *circled* are those questions:
+Caveat: I was told it would be a generalized test of SQL but a fifth of the questions were specific to the Microsoft SQL server(!), such as "What is the maximum string length allowed?". At that time I had never even heard of SQL Server.  
+
+In the test score below I have circled the parts that were based on SQL Server.  If you ignore those parts I think this test shows general competency in SQL.
+
 {% image "sql-test-but-for-sql-server.png", "Test Score Results of Evan Genest, in 2019, taking a test of SQL Server knowledge even though he did not ever use SQL Server" %}
