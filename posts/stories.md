@@ -8,10 +8,43 @@ tags:
 layout: layouts/post.njk
 ---
 
+```
+ __     __   ____    _    _ 
+ \ \   / /  / __ \  | |  | |
+  \ \_/ /  | |  | | | |  | |
+   \   /   | |  | | | |  | |
+    | |    | |__| | | |__| |
+    |_|     \____/   \____/ 
+```
 I don't want to draw a blank when interviewers ask me to talk about myself.  This page can be a place to talk about myself ahead of time.  
 
 ## Talk about what you have been up to   
 Summer 2021 has been trying to find a parking spot. I have this LAMP stack foundation. I spent the year tentatively trying on different versions of that: make full websites? (Drupal) Stay back end? (https://pikl.us project) Go all database? (1010Data). Finally realized Customer Support solves my Mom's complaint: "You are naturally good at a lot of things and I see you as just chasing all of these new things you never did before; leverage your natural gifts!". And so: Customer Support.
+## What's something you learned recently
+I learned to learn.  
+
+For a take-home job application I spent 7 days cramming at the end of October 2021. I didn't get the job, but I realized four ways to think about learning:
+### Ways to read
+__The two extremes__:  
+{Finely granular} <-----> {Skimming}  
+*I tend towards the latter. But in computers, I am focusing on being deliberate about doing the former now*
+
+### When to skip ahead
+__The two extremes__:  
+
+{It worked and I have no idea why}  
+versus  
+{It worked and I need to know what is under the hood and every variation and how to do it next time from memory}  
+*My sister Amy insists she always opts for the former. She suggests that I do too much of the latter: "That's an academic mentality, it's not how you do it in a job"*
+
+### Passive or active
+__The two extremes__:  
+{hours of reading}  
+versus  
+{hours of thrashing around with the actual API}  
+You have to stay in one of those two modes for several hours and also to flip to the other mode.  The meta part is when to do that, at what intervals.  
+  
+One thing I know, whether reading or thrashing around, I love the feeling of focus attainable in each case.  Feels like a warm bath, like the removal of a migraine, like a hearthy breakfast and strong coffee.   
 
 ## What do you like to do
 Echos of Mt Whitney:  keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. 
@@ -63,6 +96,7 @@ Yes, focusing, not finishing the project, like https://clue.school...
 
 After leaving my back end job in April 2021 I knew I needed a few weeks (months really but was impatient) of specific, added skills before I could apply succesfully for positions.  I circled my car around a parking lot: I did 3 week chunks of: __Symfony__ exercises/videos (shout-out to Ryan Weaver and Symfonycasts), __Drupal__ (many sources, shout out to some of the Template designers, to Evolving Web of Montreal, to OS Learning Drupal videos, to Web Wash), building out my sites at [Pikl](https://pikl.us/), [Drupal Farm](https://drupal.farm/), and [Clue School](https://www.clue.school/)
 
+
 ## Why did you leave your last job  
 After a year and 3 months at OfficeSupply.com I got replaced by a developer with more experience: 5+ years versus my 0 years.  
 
@@ -70,6 +104,7 @@ Here is a spider graph of my work there, doing Code Reviews and making Pull Requ
 
 {% image "github-codereview-2020.png", "Pull Requests and Code Review by Evan Genest while a Back End Developer on the team at OfficeSupply.com in 2020" %}
 
+In retrosspect, I didn't know OOP big picture: I taught that too myself, once I realized that was my lack. Did that in April + May 2021. 
 
 ### A tech problem I solved: good looking CSS   
 
@@ -90,7 +125,7 @@ This is how recruiters talk:
 
 And then he skipped anything else, including my much harder job I went to after that. Keep it short, focused. Nobody wants to read more than five sentences. About anything.  
 
-## Evan is passionate about software support  
+## Evan is *passionate* about software support  
 Not crazy about the recruiter saying I am *passionate* about software support. Ardent or conscientious maybe are okay, but I am not "passionate" about business correspondance.  
 
 Intense and driven maybe? That is just from the point of view of crossing tasks off of a todo list on my plate.  
@@ -112,6 +147,15 @@ I admire Ryan because he is a blend of those two things: knows when to dig for w
 
 ## Example of working late, extra to ship something.
 ## Training you took that had a specific benefit to your company  
+## What did you like about your last job
+## What did you dislike at your last job
+## Name a conflict with a coworker and the resolution
+## Why do you want to work for us
+## What's your philosophy of Customer Support
+## How do you break down a big problem?
+
+
+
 ## How do you troubleshoot?
 Some generalized places to look.  
 1. If you're in a browser, 
@@ -128,6 +172,16 @@ Some generalized places to look.
 7. Copy error messages from the log. Search. Copy error messages from the terminal. Search.
 
 I brainstormed this list while reading a great specific site that applies these principles, the [FAQ page](https://matomo.org/faq) at Matomo.org.  
+
+## Talking points to spark conversation  
+- Giving talks
+- Two years of the Wednesday Meetup here  
+- Fighting to add computer science to our high school  
+- Going to THAT conference  
+- How have you helped your compnies
+- Tell some testimonials: Ed + Prasad 
+- Any leadership or influence?
+
 
 ## How do you help a client go holistic on a project?  
 User Experience designers do it like this:  
@@ -147,7 +201,6 @@ User Experience designers do it like this:
 7. Develop. Realize the site in code.
 8. Continuous Improvement.
 
-## How do you break down a big problem?
 
 
 ## Remember to find out
