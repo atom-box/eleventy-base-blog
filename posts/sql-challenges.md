@@ -30,6 +30,20 @@ Solve each SQL challenge using a SQL query.  (Scroll down for solutions.)
 1. Get a list of employees whose last names start with a J, sorted by age.  
 2. Show a list of all __department numbers__ and employees per department, with them ranked by the departments with the most employees first.  Show the departments by their department numbers only.
 3. Rank the departments by average age of their employees, show the departments by their department number only.    
+4. Use a self join.  Find pairs of employees where they have the same first name and same last name, i.e. "Jimmy Johnson" and "Jimmy Johnson" would match but not "Ted Johnson" and "Fran Johnson".
+Hint: Look up how to do a self join.
+Hint: Here is a way to find only pairs of same first name:
+
+(Limit 10 is in there in case you want to try it. It still takes almost a minute.)
+```
+SELECT A.first_name, A.last_name, B.first_name, B.last_name 
+FROM employees A, employees B 
+WHERE A.emp_no <> B.emp_no 
+AND A.first_name = B.first_name 
+AND A.last_name = B.last_name 
+ORDER BY A.first_name
+LIMIT 10;
+```
 
 ## My Solutions
 
@@ -56,7 +70,23 @@ Find the gap between two dates. Return the answer in days.
 
 `DATEDIFF(date1, date2)`
 
-date1, date2 (Required). Two dates to calculate the number of days between. (date1 - date2)
+This function returns the difference in days.  
+
+Example```select DATEDIFF(curdate(), birth_date)/365 AS "age in years" from employees LIMIT 3 ;```
+will return 
+```
+
++--------------+
+| age in years |
++--------------+
+|      68.2575 |
+|      57.5014 |
+|      62.0027 |
++--------------+
+3 rows in set (0.00 sec)
+```
+
+
 
 ### Subtracting! Dates!
 Get a new date by removing some interval out of a given date
@@ -184,8 +214,45 @@ Query OK, 0 rows affected (0.01 sec)
 
 Robert Half Associates (a recruiter) let me take a SQL test in 2019. Here's a screenshot of my results.  
 
-Caveat: I was told it would be a generalized test of SQL but a fifth of the questions were specific to the Microsoft SQL server(!), such as "What is the maximum string length allowed?". At that time I had never even heard of SQL Server.  
+Caveat: I was told to anticipate a generalized test of SQL but a fifth of the questions were specific to the Microsoft SQL server, such as "What is the maximum string length allowed?". At that time I had never even *heard* of SQL Server...  
 
 In the test score below I have circled the parts that were based on SQL Server.  If you ignore those parts I think this test shows general competency in SQL.
 
 {% image "sql-test-but-for-sql-server.png", "Test Score Results of Evan Genest, in 2019, taking a test of SQL Server knowledge even though he did not ever use SQL Server" %}
+
+# Trivial Artifacts of using fake data
+
+For Activity 1 when I ran a query for *Show employees with both first and last name the same* typically about 4 of 20 people had someone in the company with the exact same first + last name.  That seems like double the rate I would expect.
+
+Here we see the number of Ymte's with a *twin* where the last name starts with P is 4.  The total number of Ymte's with a P last name is 20.
+
+```
+mysql> SELECT count(*) FROM employees WHERE first_name = "Ymte" AND last_name LIKE "P%";+----------+
+| count(*) |
++----------+
+|       20 |
++----------+
+1 row in set (0.08 sec)
+
+mysql> SELECT A.emp_no, A.first_name, A.last_name, B.emp_no, B.first_name, B.last_name 
+    -> FROM employees A, employees B 
+    -> WHERE A.emp_no <> B.emp_no 
+    -> AND A.first_name = B.first_name 
+    -> AND A.last_name = B.last_name 
+    -> AND A.first_name = "Ymte" 
+    -> AND A.last_name LIKE "P%" 
+    -> ORDER BY A.last_name;
++--------+------------+-----------+--------+------------+-----------+
+| emp_no | first_name | last_name | emp_no | first_name | last_name |
++--------+------------+-----------+--------+------------+-----------+
+| 499935 | Ymte       | Perelgut  |  89488 | Ymte       | Perelgut  |
+| 252012 | Ymte       | Perelgut  |  89488 | Ymte       | Perelgut  |
+| 499935 | Ymte       | Perelgut  | 252012 | Ymte       | Perelgut  |
+|  89488 | Ymte       | Perelgut  | 252012 | Ymte       | Perelgut  |
+| 252012 | Ymte       | Perelgut  | 499935 | Ymte       | Perelgut  |
+|  89488 | Ymte       | Perelgut  | 499935 | Ymte       | Perelgut  |
+| 499567 | Ymte       | Potthoff  | 463804 | Ymte       | Potthoff  |
+| 463804 | Ymte       | Potthoff  | 499567 | Ymte       | Potthoff  |
++--------+------------+-----------+--------+------------+-----------+
+8 rows in set (0.16 sec)
+```

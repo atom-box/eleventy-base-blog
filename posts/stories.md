@@ -8,18 +8,36 @@ tags:
 layout: layouts/post.njk
 ---
 
-I have a blankout when a stranger asks me this, especially on a remote Zoom Call where I'm also being asked to whiteboard Fizz Buzz. A lot of stuff that happens, I forget it when asked about it later. I am jotting some *happenings* here therefore so in the future I may have fewer *wonderings*.
+I don't want to draw a blank when interviewers ask me to talk about myself.  This page can be a place to talk about myself ahead of time.  
 
-## Where are you at? What do you want?  What have you been learning?  
-I want to be somewhere and be good at it.  This summer has been trying to find a parking spot. I thought my self learned LAMP stack was good but I lacked the kind of final year of college thing. I needed to go fuller in one direction. I had the curse of liking a lot of it.  Hence Drupal, Symfony hours of tutorials, full on data, all while job searching. All the while, I was misunderstanding Customer Service -- it's difficult and legit use of coding problem solving and it pays well.  
+## Talk about what you have been up to   
+Summer 2021 has been trying to find a parking spot. I have this LAMP stack foundation. I spent the year tentatively trying on different versions of that: make full websites? (Drupal) Stay back end? (https://pikl.us project) Go all database? (1010Data). Finally realized Customer Support solves my Mom's complaint: "You are naturally good at a lot of things and I see you as just chasing all of these new things you never did before; leverage your natural gifts!". And so: Customer Support.
 
-My identity goal might be: he's smart at something + at work, his phone never stops ringing. And provide for my family in a field with good pay that is not going away between now and 2040. And looking at narrow coding things that are over and done in 30 to 90 minutes.
+## What do you like to do
+Echos of Mt Whitney:  keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. 
 
-Keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. Unfortunately that will never build some big focused result.  That meshes really well with Customer Service in a role that touches something similar to a LAMP stack.  And probably not at someplace like a network troubleshooter: too far afield. Customer service at Cloudflare would be like starting all over again.  Same with 1010Data.  
+## What do you find difficult
+I like toying with code.  
+
+Unfortunately that will never build some big focused result. You can enjoy swinging a hammer but that is not the same is putting up a house. 
+
+My level of coding ability hopefully meshes really well with Customer Service in a role that touches something similar to a LAMP stack, from the SQL db all the way through to the front end and even deploying.  
+
+But probably not at the network level: too far afield. That opening at Cloudflare would be like starting all over again.  Same with 1010Data.com.  
 
 ## Story about a victory
 
 Returning to Symfony, spinning up this http://clue.school project I made.  
+
+## Tell a victory
+
+Building Symfony OOP things of my own this summer, everything clicked.  I realized I'm not dumb.  
+
+When my URL Shortener (LAMP stack at https://pikl.us) gave errors I knew the db was missing, I knew how to pluck the right line from the SQLIte, MYSql, the defaulted PostGres, et al.  And then with no hints in that code, know enough to go put it in .env.local, not where it was uncommented from.  And know what to .gitignore and what not to.   
+
+And the three branches to proceed down.  And how to know which methods are arriving in the IDE.   
+
+The route worked in dev and then not in production.  https://clue.school/notes  I easily could picture the route serving of Symfony can't happen correctly with Apache heading things off at the pass.  Knew how to search site:symfony.com   And upon finding the stuff was not tempted to write it down "phonetically" as I even would have in May.  
 
 ### Story of proud coding: having a mental model of my remote server 
 
@@ -46,7 +64,9 @@ Yes, focusing, not finishing the project, like https://clue.school...
 After leaving my back end job in April 2021 I knew I needed a few weeks (months really but was impatient) of specific, added skills before I could apply succesfully for positions.  I circled my car around a parking lot: I did 3 week chunks of: __Symfony__ exercises/videos (shout-out to Ryan Weaver and Symfonycasts), __Drupal__ (many sources, shout out to some of the Template designers, to Evolving Web of Montreal, to OS Learning Drupal videos, to Web Wash), building out my sites at [Pikl](https://pikl.us/), [Drupal Farm](https://drupal.farm/), and [Clue School](https://www.clue.school/)
 
 ## Why did you leave your last job  
-After a year and 3 months at OfficeSupply.com I got replaced by a developer with more experience: 5+ years versus my 0 years.  Things went well during my year there. I was proud when I began to get a signal for doing Code Reviews and making Pull Requests in their repo at Github:   
+After a year and 3 months at OfficeSupply.com I got replaced by a developer with more experience: 5+ years versus my 0 years.  
+
+Here is a spider graph of my work there, doing Code Reviews and making Pull Requests in their repo at Github:   
 
 {% image "github-codereview-2020.png", "Pull Requests and Code Review by Evan Genest while a Back End Developer on the team at OfficeSupply.com in 2020" %}
 
@@ -61,8 +81,8 @@ I was too prideful before to do this but also I didn't know resources. I went th
 
 Started building Static Node.js web server: Eleventy too.  
 
-## TELL ABOUT YOURSELF, Biz speak version: 
-I was described by a recruiter as follows. It feels...strange. Helpful to know though the words for describing myself in biz-speak, knowing how the creatures of business speak to one another.  
+## Learn how to write biz speak: 
+This is how recruiters talk:   
 
 *"Evan Genest has 3 years of experience in the industry. He is local to Madison, Wisconsin, and is very interested in hearing more about this opportunity with Foo Bar Baz."*
 
@@ -70,18 +90,73 @@ I was described by a recruiter as follows. It feels...strange. Helpful to know t
 
 And then he skipped anything else, including my much harder job I went to after that. Keep it short, focused. Nobody wants to read more than five sentences. About anything.  
 
-Not crazy about the word choice *passionate*, LOL. Ardent or conscientious maybe are okay, but I am not "passionate" about business correspondance. Intense and driven maybe, from the point of view of crossing tasks off of a todo list on my plate.  
+## Evan is passionate about software support  
+Not crazy about the recruiter saying I am *passionate* about software support. Ardent or conscientious maybe are okay, but I am not "passionate" about business correspondance.  
 
-Reading more Seth Godin books could cultivate an articulate version of the above, something more pleasant, less business drone.
+Intense and driven maybe? That is just from the point of view of crossing tasks off of a todo list on my plate.  
 
-### Errors and error messages
+## Where are you at? What do you want?   
+I want to be somewhere and be good at it. I want to get that good feeling from gaining expertise, like when I first started coding.
+  
+My identity goal might be: he's smart at something + at work, his phone never stops ringing. And provide for my family in a field with good pay that is not going away between now and 2040. And looking at narrow coding things that are over and done in 30 to 90 minutes.
 
-And just as good as those two things: little bugs in serving a first landing page from Twig are no big deal.  The error messages are not really enough to be docs.  You gotta already know the rough outline of which actors should be present.  All those months at DOI I would have to unspool the errors a line at a time with no knowledge of what was there.  YOu can't really backwards trace the breadcrumbs like that.  So...
+Reading more Seth Godin books could help me pick up language that biz people but still sound honest. 
+
+### Tell me a time you had a problem.  (Or also) How do you troubleshoot?
+
+The error messages are not really enough to be docs.  You gotta already know the rough outline of which actors should be present.  All those months at DOI I would have to unspool the errors a line at a time with no knowledge of what was there.  You can't really backwards trace the breadcrumbs like that.  I solved that by coming to the foundation under the hood, by degrees.  There's no substitute for that.  
+
+On the other end of the pole, Amy is right to know when to just Google something and move on.   
+
+I admire Ryan because he is a blend of those two things: knows when to dig for what's happening vs when to just put in a working line.  I guess that is the coder's version of Wisdom.
+
+## Example of working late, extra to ship something.
+## Training you took that had a specific benefit to your company  
+## How do you troubleshoot?
+Some generalized places to look.  
+1. If you're in a browser, 
+- clear the cache. Try a different browser. 
+- In devtools->network, see what is loading, maybe compare it to a similar site. Or to your site before you made the breaking change.
+- adblocker and antivirus causing issues in the browser?
+2. Dependencies:
+- your db is present? being accessed correctly? check this in its log?
+- your language (PHP?) is appropriate version? has specific modules (tokenizer.ini?) installed?
+3. Can you just reinstall something? Maybe with a different version or different options?
+4. Troubleshoot the configuration of your application. Compare your config to a backup or default config. Maybe use Beyond Compare to do this.
+5. Network: is there a proxy in the way? Redirecting? Apache and nginx and their config?
+6. Check the logs. Replicate the bug and check the logs some more.  In the command line, you can autorefresh the tail of the log `tail --follow example.txt`
+7. Copy error messages from the log. Search. Copy error messages from the terminal. Search.
+
+I brainstormed this list while reading a great specific site that applies these principles, the [FAQ page](https://matomo.org/faq) at Matomo.org.  
+
+## How do you help a client go holistic on a project?  
+User Experience designers do it like this:  
+
+1. Questionaires.  Get out of your own head. The closer you get to what your real users are like the more they will enjoy what you build.
+2. Develop fictional personas.
+    - a random person who arrived by organic search
+    - a current employee
+    - a volunteer to your org
+    - a job seeker
+    - a potential customer
+3. Map ideal journeys those personas would take on your site. What you're paid to do is align what the user feels is a happy experience and what your organization considers a happy experience. Notice we have not written any code yet.
+4. Inventory the existing and potential content.
+    - if a competitor site or your org's existing site are relevant you can inventory those. An automatic free tool for building a data tree of site content is at [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/#spider-features)
+5. Architect your site. Design the relational database. Make wireframes.
+6. Concept! Let the designers mock up some pages.
+7. Develop. Realize the site in code.
+8. Continuous Improvement.
+
+## How do you break down a big problem?
 
 
-I knew the db was missing, I knew how to pluck the right line from the SQLIte, MYSql, the defaulted PostGres, et al.  And then with no hints in that code, know enough to go put it in .env.local, not where it was uncommented from.  And know what to .gitignore and what not to.   
-
-And the three branches to proceed down.  And how to know which methods are arriving in the IDE.   
-
-The route worked in dev and then not in production.  https://clue.school/notes  I easily could picture the route serving of Symfony can't happen correctly with Apache heading things off at the pass.  Knew how to search site:symfony.com   And upon finding the stuff was not tempted to write it down "phonetically" as I even would have in May.  
+## Remember to find out
+Email address of people you are talking to.    
+Why are you hiring for this position?   
+What kind of project will I be working on?  
+What exact technology will I be using?  
+What are my avenues for advancement?  
+How many bosses, how many teamates, how many tasks a day, from which channels? 
+How do folks onboard in this team?  
+What's the recent history of the team, the company itself? (Follow up on those.)
 
