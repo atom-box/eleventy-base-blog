@@ -35,22 +35,33 @@ Hint: Look up how to do a self join.
 Hint: Here is a way to find only pairs of same first name:
 
 (Limit 10 is in there in case you want to try it. It still takes almost a minute.)
-```
-SELECT A.first_name, A.last_name, B.first_name, B.last_name 
-FROM employees A, employees B 
-WHERE A.emp_no <> B.emp_no 
-AND A.first_name = B.first_name 
-AND A.last_name = B.last_name 
-ORDER BY A.first_name
-LIMIT 10;
-```
 
 ## My Solutions
 
 1. `mysql> SELECT first_name, last_name, birth_date FROM employees WHERE last_name LIKE 'g%' ORDER BY birth_date  ASC;`
 2. `mysql> SELECT count(d.dept_no) AS employees, d.dept_no from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;`
 3. THIS DOES NOT QUITE WORK  
-```mysql> SELECT count(d.dept_no) AS employees, d.dept_no, DATEDIFF(curdate(),  '1965-01-27')/365  from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;```
+`mysql> SELECT count(d.dept_no) AS employees, d.dept_no, DATEDIFF(curdate(),  '1965-01-27')/365  from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;`
+4.  `SELECT A.first_name, A.last_name, A.emp_no, B.first_name, B.last_name, B.emp_no FROM employees A, employees B WHERE A.emp_no <> B.emp_no AND A.first_name = B.first_name AND A.last_name = B.last_name ORDER BY A.first_name LIMIT 10;`
+which gives
+```
++------------+------------+--------+------------+------------+--------+
+| first_name | last_name  | emp_no | first_name | last_name  | emp_no |
++------------+------------+--------+------------+------------+--------+
+| Aamer      | Gyorkos    |  50757 | Aamer      | Gyorkos    |  29981 |
+| Aamer      | Demke      | 412361 | Aamer      | Demke      | 241701 |
+| Aamer      | Gill       | 104915 | Aamer      | Gill       | 227392 |
+| Aamer      | Nishimukai | 264839 | Aamer      | Nishimukai | 493013 |
+| Aamer      | Soloway    | 269870 | Aamer      | Soloway    | 284027 |
+| Aamer      | Gill       | 227392 | Aamer      | Gill       | 104915 |
+| Aamer      | Nishimukai | 493013 | Aamer      | Nishimukai | 264839 |
+| Aamer      | Soloway    | 284027 | Aamer      | Soloway    | 269870 |
+| Aamer      | Bahl       | 283280 | Aamer      | Bahl       |  60922 |
+| Aamer      | Gyorkos    |  29981 | Aamer      | Gyorkos    |  50757 |
++------------+------------+--------+------------+------------+--------+
+10 rows in set (0.53 sec)
+
+```
 
 
 # General notes for MySQL
@@ -201,8 +212,15 @@ Give all of the animals, a species at a time, sorted by age.
 Add a new cheetah: Pablo, born yesterday.  
 Find the animals that are non-aquatic and eat fish.  
 
+# Amy Friend's Four Friends  
+My sister works with giant databases.  She says in the real world, these are her quotidian:  
+1. EXISTS qualifying things without the load of bringing back actual data
+2. NOT EXISTS finds records that dont have a match
+3. IN
+4. GROUP BY is great for getting counts and other aggregate data
+
 # Creating a db and a user  
-This is useful when starting a new LAMP site, such as a Drupal or Symfony project:
+Remember these when starting a new LAMP site, such as a Drupal or Symfony project:
 ```
 mysql> CREATE DATABASE golden_slumbers;
 Query OK, 1 row affected (0.02 sec)
@@ -255,4 +273,84 @@ mysql> SELECT A.emp_no, A.first_name, A.last_name, B.emp_no, B.first_name, B.las
 | 463804 | Ymte       | Potthoff  | 499567 | Ymte       | Potthoff  |
 +--------+------------+-----------+--------+------------+-----------+
 8 rows in set (0.16 sec)
+```
+
+# Appendix
+For reference when doing Activity 1 here is the Employees database  
+```
++----------------------+-------------+
+| TABLE_NAME           | COLUMN_NAME |
++----------------------+-------------+
+| employees            | birth_date  |
+| departments          | dept_name   |
+| current_dept_emp     | dept_no     |
+| departments          | dept_no     |
+| dept_emp             | dept_no     |
+| dept_manager         | dept_no     |
+| current_dept_emp     | emp_no      |
+| dept_manager         | emp_no      |
+| employees            | emp_no      |
+| dept_emp_latest_date | emp_no      |
+| salaries             | emp_no      |
+| dept_emp             | emp_no      |
+| titles               | emp_no      |
+| employees            | first_name  |
+| salaries             | from_date   |
+| titles               | from_date   |
+| dept_manager         | from_date   |
+| dept_emp_latest_date | from_date   |
+| dept_emp             | from_date   |
+| current_dept_emp     | from_date   |
+| employees            | gender      |
+| employees            | hire_date   |
+| employees            | last_name   |
+| salaries             | salary      |
+| titles               | title       |
+| dept_manager         | to_date     |
+| dept_emp_latest_date | to_date     |
+| dept_emp             | to_date     |
+| salaries             | to_date     |
+| current_dept_emp     | to_date     |
+| titles               | to_date     |
++----------------------+-------------+
+31 rows in set (0.00 sec)
+
+mysql> SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE table_schema = 'employees';
++----------------------+-------------+
+| TABLE_NAME           | COLUMN_NAME |
++----------------------+-------------+
+| current_dept_emp     | dept_no     |
+| current_dept_emp     | emp_no      |
+| current_dept_emp     | from_date   |
+| current_dept_emp     | to_date     |
+| departments          | dept_name   |
+| departments          | dept_no     |
+| dept_emp             | dept_no     |
+| dept_emp             | emp_no      |
+| dept_emp             | from_date   |
+| dept_emp             | to_date     |
+| dept_emp_latest_date | emp_no      |
+| dept_emp_latest_date | from_date   |
+| dept_emp_latest_date | to_date     |
+| dept_manager         | dept_no     |
+| dept_manager         | emp_no      |
+| dept_manager         | from_date   |
+| dept_manager         | to_date     |
+| employees            | birth_date  |
+| employees            | emp_no      |
+| employees            | first_name  |
+| employees            | gender      |
+| employees            | hire_date   |
+| employees            | last_name   |
+| salaries             | emp_no      |
+| salaries             | from_date   |
+| salaries             | salary      |
+| salaries             | to_date     |
+| titles               | emp_no      |
+| titles               | from_date   |
+| titles               | title       |
+| titles               | to_date     |
++----------------------+-------------+
+31 rows in set (0.00 sec)
+
 ```
