@@ -20,10 +20,23 @@ I don't want to draw a blank when interviewers ask me to talk about myself.  Thi
 
 ## Talk about what you have been up to   
 Summer 2021 has been trying to find a parking spot. I have this LAMP stack foundation. I spent the year tentatively trying on different versions of that: make full websites? (Drupal) Stay back end? (https://pikl.us project) Go all database? (1010Data). Finally realized Customer Support solves my Mom's complaint: "You are naturally good at a lot of things and I see you as just chasing all of these new things you never did before; leverage your natural gifts!". And so: Customer Support.
+
+## What's difficult  
+Organizing troubleshooting info. Avoiding do something - do something - do something.  Someone says where you at; or you say where am I at? And it wrecks your local memory while you disk access your other info.  
+Coping:  half cards with the unknown on one side (plus the hypothesis or the try). The result goes on the back side.
+Coping: spiral pad for billable.  
+Both can have a timer on them.  
+As Matthieu said: handwritten is good if nobody else needs to see it.  
+
+## What's difficult
+Talking stories of me.  
+Coping: tags, markdown, and a private blog from static page  
+
 ## What's something you learned recently
 I learned to learn.  
 
 For a take-home job application I spent 7 days cramming at the end of October 2021. I didn't get the job, but I realized four ways to think about learning:
+
 ### Ways to read
 __The two extremes__:  
 {Finely granular} <-----> {Skimming}  
@@ -47,12 +60,23 @@ You have to stay in one of those two modes for several hours and also to flip to
 One thing I know, whether reading or thrashing around, I love the feeling of focus attainable in each case.  Feels like a warm bath, like the removal of a migraine, like a hearthy breakfast and strong coffee.   
 
 ## What do you like to do
-Echos of Mt Whitney:  keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. 
+Things that are uncomfortable. Echos of Mt Whitney:  keep up my recreational 1 hour walk to coding -- that's my version of all that bike riding Dad always insisted on. Go poke around at code is my entertainment. That's my crossword puzzle. 
 
-## What do you find difficult
-I like toying with code.  
+## Why leave teaching or Focusing (weak-but-strong in 2 career titles)
+Being around zero adults all day was making me dumber.
+I found the evening-through-morning full time work not leaveable.  
+The whole world was teachable. Everything is interesting.  My wide focus caused this. My brain is attracted by off ramps. 
 
-Unfortunately that will never build some big focused result. You can enjoy swinging a hammer but that is not the same is putting up a house. 
+In learning the off ramps has led me in many directions.  
+In a job where you are supposed to look forward to a full inbox each day that's a good thing. The guy who told me "Every morning its full again." Meg "stuff keeps growing weeds".  For me, that is food. 
+
+
+
+
+## What do you find difficult: long coding
+I wish I could have a job doing coding bat all day.  But I think that's what customer service is, so I'm home!
+
+You can enjoy swinging a hammer but that is not the same is putting up a house. 
 
 My level of coding ability hopefully meshes really well with Customer Service in a role that touches something similar to a LAMP stack, from the SQL db all the way through to the front end and even deploying.  
 

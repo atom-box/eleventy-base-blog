@@ -8,22 +8,23 @@ tags:
 layout: layouts/post.njk
 ---
 
-Caveat: __This is just a messy grab bag of mySQL notes.__
+**Caveat:** *This is a longish post*
 
-Here are some specific exercises for warming up or staying practiced SQL! I am using MySQL but this all seems agnostic: the following should work with PostGreSQL, SQLite, MariaDB, et al. 
+Do you want to clone a giant fake database? Do you want to see some practice things I made up to query it?  Read on.
 
-# Activity 1: Try the Test db *Employees* from the DataCharmer repository
+These are some specific exercises for warming up or staying practiced in SQL! I am using MySQL but this all seems agnostic: the following should work with PostGreSQL, SQLite, MariaDB, MS SQL Server, et al. 
 
-A good sample database is here: [Employee Test DB](https://github.com/datacharmer/test_db). (This is a large db; scroll down to Activity 2 if you need something smaller.)
+# Activity 1: Clone and use the db *Employees* 
+Employees is almost a million lines long. It is a machine generated db from the DataCharmer repository (Scroll down to Activity 2 if you need a smaller fake db.)
 
-This db has 300,000 example employees and 1 million salary records. A README in this repository gives one caveat: *This data was generated, and as such there are inconsistencies and subtle problems. Rather than removing them, we decided to leave the contents untouched, and use these issues as data cleaning exercises.*  When you use the db you may notice that for a given last name there will be 150 people with that last name. Always.  So the data really is just a bunch of dice being rolled.  
+[Employee Test DB](https://github.com/datacharmer/test_db) has 300,000 example employees and 1 million salary records.  
 
 To get started, clone the repo [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) and then run from the CLI, as super user like this.  
 ```
 $ sudo mysql < employees.sql
 ```
 
-## Exercises
+## Exercises for Activity 1  
 
 Solve each SQL challenge using a SQL query.  (Scroll down for solutions.)
 
@@ -40,8 +41,10 @@ Hint: Here is a way to find only pairs of same first name:
 
 1. `mysql> SELECT first_name, last_name, birth_date FROM employees WHERE last_name LIKE 'g%' ORDER BY birth_date  ASC;`
 2. `mysql> SELECT count(d.dept_no) AS employees, d.dept_no from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;`
-3. THIS DOES NOT QUITE WORK  
-`mysql> SELECT count(d.dept_no) AS employees, d.dept_no, DATEDIFF(curdate(),  '1965-01-27')/365  from employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  GROUP BY d.dept_no ORDER BY employees DESC;`
+3.  `SELECT  d.dept_no, avg( DATEDIFF(curdate(), e.birth_date))/365 AS age
+FROM employees AS e JOIN dept_emp AS d ON e.emp_no = d.emp_no  
+GROUP BY d.dept_no  
+ORDER BY age;`  
 4.  `SELECT A.first_name, A.last_name, A.emp_no, B.first_name, B.last_name, B.emp_no FROM employees A, employees B WHERE A.emp_no <> B.emp_no AND A.first_name = B.first_name AND A.last_name = B.last_name ORDER BY A.first_name LIMIT 10;`
 which gives
 ```
@@ -212,6 +215,9 @@ Give all of the animals, a species at a time, sorted by age.
 Add a new cheetah: Pablo, born yesterday.  
 Find the animals that are non-aquatic and eat fish.  
 
+# The cool thing about GROUP BY
+Functions get applied *after* the grouping.  So avg(), count(), max(), min(), sum(), all are applied to an entire column usually, except if there is a GROUP BY, they are applied to the group.  It's as if each group is a table of its own and it gets COUNT() locally applied to just it.
+
 # Amy Friend's Four Friends  
 My sister works with giant databases.  She says in the real world, these are her quotidian:  
 1. EXISTS qualifying things without the load of bringing back actual data
@@ -275,7 +281,10 @@ mysql> SELECT A.emp_no, A.first_name, A.last_name, B.emp_no, B.first_name, B.las
 8 rows in set (0.16 sec)
 ```
 
-# Appendix
+A README in the employees repository gives one caveat: *This data was generated, and as such there are inconsistencies and subtle problems. Rather than removing them, we decided to leave the contents untouched, and use these issues as data cleaning exercises.*  When you use the db you may notice that for a given last name there will be 150 people with that last name. Always.  So the data really is just a bunch of dice being rolled.  
+
+
+# Appendix 1
 For reference when doing Activity 1 here is the Employees database  
 ```
 +----------------------+-------------+
@@ -354,3 +363,8 @@ mysql> SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE tabl
 31 rows in set (0.00 sec)
 
 ```
+
+# Appendix 2
+Install Microsoft SQL Server on Linux:  
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu  
+
