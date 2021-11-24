@@ -274,3 +274,86 @@ mysql -u jamesbaldwin -p
 
 
 # Solutions 
+
+# Schema
+```
+mysql> SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE table_schema = 'sql_tutorial' ORDER BY COLUMN_NAME;          
++-------------+-----------------+
+| TABLE_NAME  | COLUMN_NAME     |
++-------------+-----------------+
+| locations   | city            |
+| locations   | country_id      |
+| countries   | country_id      |
+| countries   | country_name    |
+| departments | department_id   |
+| employees   | department_id   |
+| departments | department_name |
+| dependents  | dependent_id    |
+| employees   | email           |
+| dependents  | employee_id     |
+| employees   | employee_id     |
+| dependents  | first_name      |
+| employees   | first_name      |
+| employees   | hire_date       |
+| employees   | job_id          |
+| jobs        | job_id          |
+| jobs        | job_title       |
+| employees   | last_name       |
+| dependents  | last_name       |
+| locations   | location_id     |
+| departments | location_id     |
+| employees   | manager_id      |
+| jobs        | max_salary      |
+| jobs        | min_salary      |
+| employees   | phone_number    |
+| locations   | postal_code     |
+| countries   | region_id       |
+| regions     | region_id       |
+| regions     | region_name     |
+| dependents  | relationship    |
+| employees   | salary          |
+| locations   | state_province  |
+| locations   | street_address  |
++-------------+-----------------+
+33 rows in set (0.00 sec)
+
+mysql> SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE table_schema = 'sql_tutorial';
++-------------+-----------------+
+| TABLE_NAME  | COLUMN_NAME     |
++-------------+-----------------+
+| countries   | country_id      |
+| countries   | country_name    |
+| countries   | region_id       |
+| departments | department_id   |
+| departments | department_name |
+| departments | location_id     |
+| dependents  | dependent_id    |
+| dependents  | employee_id     |
+| dependents  | first_name      |
+| dependents  | last_name       |
+| dependents  | relationship    |
+| employees   | department_id   |
+| employees   | email           |
+| employees   | employee_id     |
+| employees   | first_name      |
+| employees   | hire_date       |
+| employees   | job_id          |
+| employees   | last_name       |
+| employees   | manager_id      |
+| employees   | phone_number    |
+| employees   | salary          |
+| jobs        | job_id          |
+| jobs        | job_title       |
+| jobs        | max_salary      |
+| jobs        | min_salary      |
+| locations   | city            |
+| locations   | country_id      |
+| locations   | location_id     |
+| locations   | postal_code     |
+| locations   | state_province  |
+| locations   | street_address  |
+| regions     | region_id       |
+| regions     | region_name     |
++-------------+-----------------+
+33 rows in set (0.00 sec)
+```
