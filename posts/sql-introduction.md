@@ -1,5 +1,5 @@
 ---
-title: A Small SQL db With SQL Examples
+title: SQL Examples
 description:
 date: 2020-06-17
 tags:
@@ -16,7 +16,13 @@ Query OK, 1 row affected (0.02 sec)
 mysql> GRANT ALL PRIVILEGES ON golden_slumbers.* to 'lennonMcCartney'@localhost;
 Query OK, 0 rows affected (0.01 sec)
 ```
+# Get a fly by of the db
+This is my quick way to describe every table.
+```
+SELECT TABLE_NAME, COLUMN_NAME  FROM information_schema.columns WHERE table_schema = 'employees' ;
 
+SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns WHERE table_schema = 'employees' ORDER BY COLUMN_NAME;
+```
 
 # The cool thing about GROUP BY
 Functions get applied *after* the grouping.  So avg(), count(), max(), min(), sum(), all are applied to an entire column usually, except if there is a GROUP BY, they are applied to the group.  It's as if each group is a table of its own and it gets COUNT() locally applied to just it.
