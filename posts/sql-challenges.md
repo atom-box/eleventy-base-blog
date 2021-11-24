@@ -36,6 +36,10 @@ Hint: Look up how to do a self join.
 Hint: Here is a way to find only pairs of same first name:
 
 (Limit 10 is in there in case you want to try it. It still takes almost a minute.)
+5. Count how many employees are named Georgi or Parto
+6. Find the employees with last name starting with "T" whose salaries fall in a narrow range.  Play around to get the range small enough that just a handful of results are found.
+7. Create a stored procedure!
+Your stored procedure should return first and last name and emp # for employees who have been managers for more than X number of years, where X is the only inputtable value.
 
 ## My Solutions
 
@@ -65,8 +69,60 @@ which gives
 10 rows in set (0.53 sec)
 
 ```
+5. SELECT count(first_name), first_name  
+FROM employees  
+WHERE first_name="parto" OR first_name="georgi"  
+GROUP BY first_name;  
+```
++-------------------+------------+
+| count(first_name) | first_name |
++-------------------+------------+
+|               253 | Georgi     |
+|               228 | Parto      |
++-------------------+------------+
+2 rows in set (0.19 sec)
 
+```
 
+6. SELECT first_name, last_name, e.emp_no, max(s.salary)  
+FROM employees as e JOIN salaries as s ON e.emp_no=s.emp_no   
+WHERE s.salary > 40048 AND s.salary < 40050  
+AND e.last_name LIKE "t%"   
+GROUP BY e.emp_no  
+ORDER BY e.last_name;  
+  
+__note: the *group by* is neccessary because there's a *max()*__  
+__note: the *max()* was neccessary because most employees have had multiple salaries during their time with the company__  
+```
++------------+----------------+--------+---------------+
+| first_name | last_name      | emp_no | max(s.salary) |
++------------+----------------+--------+---------------+
+| Tran       | Tanemo         | 240242 |         40049 |
+| Katsuyuki  | Theuretzbacher |  87678 |         40049 |
+| Nitsan     | Trystram       |  81920 |         40049 |
++------------+----------------+--------+---------------+
+3 rows in set (0.37 sec)
+```
+7. WORK-IN-PROGRESS!
+THIS WORKS
+```
+SELECT emp_no, from_date FROM dept_manager WHERE  DATEDIFF(curdate(), from_date)/365 > 3;
++--------+------------+
+| emp_no | from_date  |
++--------+------------+
+| 110022 | 1985-01-01 |
+| 110039 | 1991-10-01 |
+| 110085 | 1985-01-01 |
+| 110114 | 1989-12-17 |
+```
+
+BUT THIS FAILS
+```
+CREATE PROCEDURE LongtimeManagers @Years smallint 
+AS 
+SELECT emp_no, from_date FROM dept_manager WHERE DATEDIFF(curdate(), from_date)/365 > @Years 
+ GO;
+```
 # General notes for MySQL
 
 ## Describe ALL tables in EXAMPLE
