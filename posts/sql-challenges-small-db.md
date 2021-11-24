@@ -1,5 +1,5 @@
 ---
-title: A Small SQL db With SQL Examples
+title: SQL Exercises for a 40 Line Database
 description:
 date: 2021-11-17
 tags:

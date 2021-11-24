@@ -1,5 +1,5 @@
 ---
-title: A Large SQL db With SQL Examples
+title: SQL Exercises for a 299,938 Line Database
 description:
 date: 2021-11-17
 tags:
@@ -21,7 +21,7 @@ layout: layouts/post.njk
 If you want to practice SQL queries, you need a local database and some exercises to get you started. This post describes how to install a database with millions of lines. I then share some exercises to get you started on playing with the database.
 
 # Clone and use the db *Employees* 
-*Employees* is a machine generated db from the DataCharmer repository. It has 299938 employees and 2843227 salary records. Its schema is shown at the end of this article. (You can try a much smaller practice DB described in my article: __A Small SQL db With SQL Examples__.)
+*Employees* is a machine generated db from the DataCharmer repository. It has 299938 employees and 2843227 salary records. Its schema is shown at the end of this article. (You can try a much smaller practice DB described in my article: __SQL Exercises for a 40 Line Database__.)
 
 To get started, clone the repo at [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db)
 
