@@ -16,6 +16,9 @@ The Elissa Slotkin site has a clean design. It seems aware that a third of its u
 
 I have an octagenarian friend, so I will investigate the site's senior-friendliness by watching her navigate it this week when she tunes in to the upcoming livestream at http://slotkin.house.gov/live  
 
+## Design and CSS
+The use of Red and Blue are very balanced. This is not an blue heavy Squad or E Warren site: keeping the door open to Red and Blue folks.  
+
 ## Data Odometer Spinner
 I don't know what this element is properly termed. It's a banner 2/3 of the way down many popular pages that shows animated loading numbers for how succesful the business is.  For this page, it animates three numbers:
 
@@ -29,8 +32,8 @@ I don't know what this element is properly termed. It's a banner 2/3 of the way 
 
 ## Technology used by the site
 
-Here are some highlights of the https://slotkin.house.gov site tech, found when analyzing the site with [Built With](https://builtwith.com/slotkin.house.gov). (I love Built With!)  The Slotkin site has:
-  
+According to [Built With](https://builtwith.com/slotkin.house.gov), the following things are in the stack of the Slotkin site.
+
 ### Varnish  
 Varnish is a server, specialized in caching, maybe for video streaming especially? 
 
@@ -41,7 +44,10 @@ Varnish is a server, specialized in caching, maybe for video streaming especiall
 ### Drupal
 
 This continues my observation that there is always a job for you in government web development if you keep up with Drupal.  
-There's a WooTheme on the FlexSlider.  
+
+The site is on an up to date Drupal 9 (yay!).
+
+In theming I see there is a WooTheme style on the FlexSlider.  
 
 ### Javascript
 
@@ -59,7 +65,7 @@ Federated Learning of Cohorts (FLoC) (*a privacy-preserving mechanism for intere
 
 It is an ethical advertising project, maybe like DuckDuckGo?  The [Readme at Github](https://github.com/WICG/floc) is helpful.
 
-Total users of this thing plummeted from 50,000 to 20,000 in August. 
+The total number of users of FLoC plummeted from 50,000 to 20,000 in August, according to the graph at BuiltWith. 
 
 ### Hosting
 Nexcess  
