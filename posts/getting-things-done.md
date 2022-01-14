@@ -1,42 +1,22 @@
 ---
-title: Listening to the SaaSter Podcast
-description:
-date: 2021-17-04
+title: Getting Things Done
+description: Foo bar baz.
+date: 2022-01-12
 tags:
-  - SaaS
-  - Customer Service
+  - gtd
 layout: layouts/post.njk
 ---
 
-Released: Feb 26, 2021  
-Speaker: Tim Kopp, Terminus CEO  
-Link:  https://www.saastr.com/the-playbook-to-boosting-net-retention-quickly-with-terminus/  
 
-## TLDR
+## David Allen reboot
+I learned the system Getting Things Done in 2008 but incompletely implemented it. Most of what I know is from Getting Things Done, the book by David Allen.  
 
-Retention is the new acquisition.  
-Big on Upselling and Cross-selling.   
+For 2022 it is one of my personal resolutions to implement it again. I told RG about it and he commented *"It probably doesn't help that the two people I've worked with who were hardore GTD guys were super unproductive, haha.  They spent lots of time organizing their tasks and little time completing them.  That combined with my own failure to stick with it (or most systems, really) may have soured me on it a bit."*
 
-## Net Revenue Retention as a  Metric
-
-Kopp talks a lot about NRR in this episode. One definition of NRR is here, from https://www.businessinsider.jp/post-215709 :  
+## Things to emphasize this time
+The final stage of my daily process is leaky: once I schedule things, they either end up being the 4/7 things that didnt get done that day or they get put on my calendar but I am not living in my calendar, so the day comes and goes.  
   
-*Net Revenue Retention, sometimes called Net Dollar Retention, is an indicator of "whether sales from customers once acquired will increase or decrease in the future.*
-
-
-## Takewaway
-Tim Kopp's company terminus got a lot out of NRR monitoring by using [Gainsight](https://www.gainsight.com/) (their version of Helpscout? Find out what they monitored.)  
-
-Here are some companies and their NRR:
-{% image "saas-companies-with-highest-net-revenue-retention.png", "Saas companies with highest net revenue retoention NRR" %}
-
-
-
-
-
-
-
-
+Meg says she had success with the Rule of 3's I shared with her. I could add that to Getting Things Done.
 
 
 
