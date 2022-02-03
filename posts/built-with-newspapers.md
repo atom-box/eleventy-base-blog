@@ -117,6 +117,7 @@ The NYT uses 23 marketing technologies:
 Part of my interest is to check the media's participation in the Martech 5000 ecosystem
 {% image "macbeth-witch.jpeg", "A cryptically evil person" %}  
 <br/>
+Above, below, image of something vaguely creepy, yet intriguing.  
 {% image "martech5000.png", "The key to your house, hanging on a wall somewhere in Russia" %}  
 
 ## Analysis
