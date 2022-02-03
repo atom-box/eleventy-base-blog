@@ -16,15 +16,15 @@ The Guardian UK
 The Financial Times  
 The New York Times  
 Le Monde  
-
-_Coming soon, radio too (TODO):
-WNYC Public Radio in New York City  
-WORT Community Radio in Madison  
-Radio France  
-FIP.fr_  
+  
+This is not a careful list yet. It actually includes in "marketing technologies" everything from 
+- internal data analytics tools that don't sell to anybody (e.g. Matomo.org)  
+- internal tools that are "free" and re-sell without emphasizing that is their business model and whitewash their business model by telling you how to "adjust your privacy settings" (Google)
+- full-blown PII re-sellers that make no bones about what their incentive is
 
 
 ## Financial Times, Analytics and Tracking
+The Financial Times uses 14 marketing technologies:  
 * Salesforce Audience
 * Chartbeat 
 * Optimizely 
@@ -41,17 +41,21 @@ FIP.fr_
 * LinkedIn InsightsLinkedIn Insights
 
 ## Le Monde, Analytics and Tracking
+Le Monde uses 1 marketing technology:  
 * Facebook Domain Insights
 
 ## The Guardian UK
+The Guardian UK uses 4 marketing technologies:  
+
 * Google Analytics
 * Fastly  
 * DocuSign 
 * Adobe Enterprise Cloud  
 
 ## New York Times
-* * Chartbeat 
-* * WebTrends 
+The NYT uses 13 marketing technologies:  
+* Chartbeat 
+* WebTrends 
 * Akamai mPulse 
 * Optimizely 
 * Google Analytics 
@@ -66,6 +70,7 @@ FIP.fr_
 
 
 ## USA Today
+The NYT uses 20 marketing technologies:  
 * Chartbeat 
 * Omniture SiteCatalyst 
 * Parse.ly 
@@ -88,6 +93,7 @@ FIP.fr_
 * DoubleClick Floodlight 
 
 ## The Wisconsin State Journal
+The NYT uses 23 marketing technologies:  
 * Rapleaf 
 * BlueConic 
 * LiveRamp 
@@ -115,11 +121,17 @@ FIP.fr_
 ## Martech 5000
 Part of my interest is to check the media's participation in the Martech 5000 ecosystem
 {% image "macbeth-witch.jpeg", "A cryptically evil person" %}  
-  
+<br/>
 {% image "martech5000.png", "The key to your house, hanging on a wall somewhere in Russia" %}  
 
 ## Analysis
 The European media use fewer Marketing Technologies.  Le Monde is especially low Martech/high Privacy.  
 <br/>
 Among the American media, the smaller the site traffic, the more ad revenue they seem to be trying to squeeze out of their platform.  
+  
+_Coming soon, radio too (TODO):  
+WNYC Public Radio in New York City  
+WORT Community Radio in Madison  
+Radio France  
+FIP.fr_  
 
