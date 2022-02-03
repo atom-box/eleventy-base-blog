@@ -1,6 +1,6 @@
 ---
-title: Tech used by four newspaper sites
-description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
+title: Newspapers Have to Make Money Somehow
+description: foo bar and baz
 date: 2022-02-02
 tags:
   - web analytics
@@ -8,16 +8,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-## Newspapers viewed
+## Introduction  
 I used Builtwith.com to check the tracking and web analytics used by several large circulation newspapers.  
-The Wisconsin State Journal  
-USA Today  
-The Guardian UK  
-The Financial Times  
-The New York Times  
-Le Monde  
   
-This is not a careful list yet. It actually includes in "marketing technologies" everything from 
+  
+This is not a careful list yet. All I did is feed in site names to builtwith.com and record the analytics tech at each site. It actually includes in "marketing technologies" everything from 
 - internal data analytics tools that don't sell to anybody (e.g. Matomo.org)  
 - internal tools that are "free" and re-sell without emphasizing that is their business model and whitewash their business model by telling you how to "adjust your privacy settings" (Google)
 - full-blown PII re-sellers that make no bones about what their incentive is
