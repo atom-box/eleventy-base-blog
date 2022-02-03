@@ -23,10 +23,6 @@ WORT Community Radio in Madison
 Radio France  
 FIP.fr_  
 
-## Martech 5000
-Part of my interest is to check the media's participation in the Martech 5000 ecosystem
-{% image "macbeth-witch.jpeg", "A cryptically evil person" %}
-{% image "martech5000.png", "The key to your house, hanging on a wall somewhere in Russia" %}
 
 ## Financial Times, Analytics and Tracking
 * Salesforce Audience
@@ -116,7 +112,14 @@ Part of my interest is to check the media's participation in the Martech 5000 ec
 * Mather Economics 
 * Snowplow 
 
+## Martech 5000
+Part of my interest is to check the media's participation in the Martech 5000 ecosystem
+{% image "macbeth-witch.jpeg", "A cryptically evil person" %}  
+  
+{% image "martech5000.png", "The key to your house, hanging on a wall somewhere in Russia" %}  
+
 ## Analysis
 The European media use fewer Marketing Technologies.  Le Monde is especially low Martech/high Privacy.  
-  
+<br/>
 Among the American media, the smaller the site traffic, the more ad revenue they seem to be trying to squeeze out of their platform.  
+
