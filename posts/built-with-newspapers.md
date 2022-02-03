@@ -9,11 +9,15 @@ layout: layouts/post.njk
 ---
 
 ## Introduction  
-I used Builtwith.com to check the tracking and web analytics used by several large circulation newspapers.  
+I used [Builtwith](https://builtwith.com) to check the tracking and web analytics used by several large circulation newspapers.  
   
   
-This is not a careful list yet. All I did is feed in site names to builtwith.com and record the analytics tech at each site. It actually includes in "marketing technologies" everything from 
+This is not a careful list yet. It jumbles the good and the bad.  
+
+This list includes the innocent:
 - internal data analytics tools that don't sell to anybody (e.g. Matomo.org)  
+  
+as well as the profiteers:
 - internal tools that are "free" and re-sell without emphasizing that is their business model and whitewash their business model by telling you how to "adjust your privacy settings" (Google)
 - full-blown PII re-sellers that make no bones about what their incentive is
 
