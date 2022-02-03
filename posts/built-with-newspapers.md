@@ -92,7 +92,7 @@ The NYT uses 20 marketing technologies:
 * DoubleClick Floodlight 
 
 ## The Wisconsin State Journal
-The NYT uses 23 marketing technologies:  
+The WSJ uses 23 marketing technologies:  
 * Rapleaf 
 * BlueConic 
 * LiveRamp 
