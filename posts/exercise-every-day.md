@@ -27,4 +27,4 @@ Author: Daniel E. Lieberman
 * alternating, palm to shin, hold for a breath
 * clam
   
-Your online list for this is under your full email name, based then on Atlassian, without exclaim  
+Your online list for this is under your full email name, based then on Atlassian, without exclaim but with two question marks and the name of your favorite ghost spelled backwards, interspersed with all of the emojis for wind
