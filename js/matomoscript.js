@@ -9,3 +9,11 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.async=true; g.src='//cdn.matomo.cloud/tatll.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
+
+
+// START OF TAG MANAGER
+var _mtm = window._mtm = window._mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.async=true; g.src='https://cdn.matomo.cloud/tatll.matomo.cloud/container_B1E2mshg.js'; s.parentNode.insertBefore(g,s);
+//  END OF TAG MANAGER
