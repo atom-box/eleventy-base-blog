@@ -1,5 +1,5 @@
 ---
-title: 
+title: How to do Snorkeling and Tent Camping in Key Largo and the Everglades 
 description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
 date: 2022-03-28
 tags:
