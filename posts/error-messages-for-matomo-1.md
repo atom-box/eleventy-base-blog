@@ -1,5 +1,5 @@
 ---
-title: Matomo Error Messages: A General Introduction
+title: Matomo Error Messages, A General Introduction
 description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
 date: 2022-04-03
 tags:
