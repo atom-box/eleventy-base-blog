@@ -1,5 +1,5 @@
 ---
-title: Booknotes; Medicare for Dummies
+title: Medicare for Dummies
 description:
 date: 2022-09-01
 tags:
