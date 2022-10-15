@@ -1,5 +1,5 @@
 ---
-title: Where to look for Matomo Error Messages
+title: Matomo Error Messages: A General Introduction
 description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
 date: 2022-04-03
 tags:
@@ -9,7 +9,9 @@ layout: layouts/post.njk
 ---
 
 ## How does Matomo work; introduction to Matomo for beginners
-We can start here with an explanation of what Matomo does *when everything is going right*, so we have something to aspire to!  
+Matomo is a direct competitor to Google Analytics.  Matomo allows you to see how users get to your site and what happens while they are on your site.  What is its market share? Matomo is installed on about 10% of the world's largest sites, according to [BuiltWith](https://trends.builtwith.com/analytics/Matomo). 
+
+This is an article about what to do when you make a mistake with Matomo.  But first let's start here with an explanation of what Matomo does *when everything is going right*, so we have something to aspire to!  
   
 Matomo comes in [three flavors](https://matomo.org/what-is-on-premise/).  We will assume in this article that you are running On Premise.  Before troubleshooting, take some time to know the rudiments of what Matomo is doing.  
 
