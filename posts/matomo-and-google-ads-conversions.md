@@ -1,7 +1,7 @@
 ---
 title: Using Google Ads and Matomo
 description:  Taking notes 
-date: 2022-12-9
+date: 2022-12-09
 tags:
   - web analytics
   - data
