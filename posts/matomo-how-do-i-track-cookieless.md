@@ -1,5 +1,5 @@
 ---
-title: In Matomo How Do I Track
+title: In Matomo How Do I Track...
 description: An index to help me find things on the Matomo website docs.
 date: 2022-02-21
 tags:
