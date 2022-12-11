@@ -19,6 +19,11 @@ The Help docs are readable, organized, clear.  And if you go down the many roads
   
 What follows is a random fly by of Matomo's docs.  
 
+## What to do when there is a data loss
+[Nell Patel](https://neilpatel.com/blog/google-analytics-data-errors/)  
+[Sarah Berry](https://www.webfx.com/blog/marketing/why-is-my-website-traffic-going-down/)  
+[Taavi Kalvi](https://holini.com/website-traffic-drop/)  
+  
 
 ## Glossary of Analytics Terms  
 There is a helpful glossary with ~200 terms.  
