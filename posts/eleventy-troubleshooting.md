@@ -15,6 +15,19 @@ In the future, might consider these also:
 * DEBUG=Eleventy* npx @11ty/eleventy at the command line was interesting, though not useful 
 * there are other compile commands, similar to 'npm dev' I think  
 
+## Error: Output conflict, Multiple input files are writing to...
+'''
+Problem writing Eleventy templates: (more in DEBUG output)
+> Output conflict: multiple input files are writing to `_site/tags/getting-things-done/index.html`. Use distinct `permalink` values to resolve this conflict.
+  1. ./tags.njk
+  2. ./tags.njk
+
+`DuplicatePermalinkOutputError` was thrown:
+
+'''
+This was due to some missing formatting OR redundant labeling in the header.  
+The solution was to copy and paste a well formatted header from elsewhere and just edit that.   
+
 ## Git commands that were useful during blog editing
 
 

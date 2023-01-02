@@ -1,9 +1,11 @@
 ---
-title:  2022 Retrospective  
-description:  Household time to reflect  
-date: 2023-01-01
+
+title: Retrospective of the Last Year  
+description:
+date: 2023-01-02
 tags:
-  - Getting Things Done
+  - css
+  - javascript
 layout: layouts/post.njk
 ---
 
@@ -15,7 +17,7 @@ Meg and I toss receipts and ticket stubs into a can near the toaster all year lo
 * Awesome haircut in the Sedano's grocery store south of Miami. All the staff had immaculate eyebrows and great sneakers
 * Florida Keys,  talking to waiters about    how far they have to drive to get to work vs where they can afford to live
 * Unbearable Weight Nicolas Cage movie in fitchburg
-* Anneversary Hamlet at APT players theater: the epic rain was act VI, luckily
+* Anniversary Hamlet at APT players theater: the epic rain was act VI, luckily
 * Stayed in the Circle Barn for a night because we were fanatics: back to back Raisin in the Sun (great) with free Loves Labor Lost (actors picking up trash in town square).  Greasemonkey character not in company stole the show as funny fellow
 * Line Breaks poetry slam from the First Wave students, at University of Wisconsin Madison
 * Cafeteria receipts from two train trips to the Rochester Ascension 
