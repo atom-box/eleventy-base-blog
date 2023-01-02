@@ -3,7 +3,7 @@ title: Turns Out the Gnu Calendar is a Great Pomodoro replacement
 description: Take 12 different courses over 5 months to gain a comprehensive understanding of Drupal
 date: 2021-11-16
 tags:
-  - getting things done
+  - GTD
 layout: layouts/post.njk
 ---
 

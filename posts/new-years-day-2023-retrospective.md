@@ -4,8 +4,7 @@ title: Retrospective of the Last Year
 description:
 date: 2023-01-02
 tags:
-  - css
-  - javascript
+  - GTD
 layout: layouts/post.njk
 ---
 

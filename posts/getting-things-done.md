@@ -3,7 +3,7 @@ title: Getting Things Done
 description: Foo bar baz.
 date: 2022-01-12
 tags:
-  - gtd
+  - GTD
 layout: layouts/post.njk
 ---
 

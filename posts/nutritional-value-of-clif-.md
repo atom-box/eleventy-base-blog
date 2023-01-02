@@ -3,7 +3,7 @@ title: Protein bar comparison
 description: Reading labels on some bars I started eating
 date: 2021-09-14
 tags:
-  - gtd
+  - GTD
 layout: layouts/post.njk
 ---
 
