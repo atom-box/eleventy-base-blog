@@ -2,7 +2,7 @@
   "title": "Evan Genest's Learning Log",
   "url": "https://tatll.me/",
   "language": "en",
-  "description": "Web developer notes emphasizing LAMP, Symfony, PHP, Javascript, Drupal, and Node.",
+  "description": "This blog is cryptic. It is hard for me to write as if anyone will see it, so I use it as a personal notepad. There are some vacation reflections, a bit of podcast note-taking, and some technical notes here about Matomo, LAMP stack, PHP, Javascript, and Drupal.",
   "feed": {
     "subtitle": "Try again; fail better!",
     "filename": "feed.xml",
