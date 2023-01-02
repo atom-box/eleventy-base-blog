@@ -20,22 +20,6 @@ layout: layouts/post.njk
 * Zero party is things they tell you when you ask them: intentions to buy, communication preferences.
 * First party cookies are all the things they did on your site. Importantly this includes their return and prior visits
 * First party cookie examples: remembering passwords, basic data about the visitor, and other preferences.
-<<<<<<< HEAD
-* Third party is: what are they doing elsewhere
-* Third party is: a retargeting list that can be used to send ads to your past visitors or people with similar web profiles.
-* 
-* 
-* 
-* 
-* 
-
-[Going cookie-less with Matomo - Bjarn Bronsveld](https://bjarn.dev/blog/article/going-cookie-less-with-matomo)
-[Using matomo to do away with cookie consent - BroKKr.net](https://brokkr.net/2021/11/21/using-matomo-to-do-away-with-the-cookie-consent-banner/)
-[Cookieless website analytics with Matomo and Jekyll by Michael Altenburger](https://www.altenburger.io/posts/matomo_non_cookie/)
-[Alick Mighall - Rolling notes on my experiments with Matomo On Premise open source analytics](https://medium.com/miggle/matomo-notes-a8ee07bb5559)
-[]()
-[]()
-=======
 * First party: customer is mostly unaware of the collecting
 * Second party data is B2B. It was collected by that company and the two of you exchange the data for mutual benefit.
 * Second party: Airline and hotel selling/buying data. Shoe company and clothing company buying and selling data.  Customer doesn't realistically know they are doing this.
@@ -51,4 +35,3 @@ The claim is that visitors will be bundled as groups: still reachable as a demog
 You will still be able to send ads to them, but they will no longer show up at your site volunteering so much information.
 
 
->>>>>>> 0eacc5b0140c44b0b0938ce9d5c4093837beba2e
