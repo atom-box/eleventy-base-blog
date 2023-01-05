@@ -4,6 +4,7 @@ description:
 date: 2020-06-17
 tags:
   - SQL
+  - linux
 
 layout: layouts/post.njk
 ---

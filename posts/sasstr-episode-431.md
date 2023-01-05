@@ -3,8 +3,8 @@ title: Listening to the SaaSter Podcast
 description:
 date: 2021-12-14
 tags:
-  - SaaS
-  - Customer Service
+  - business
+  - books
 layout: layouts/post.njk
 ---
 

@@ -3,7 +3,7 @@ title: Plain Writing
 description:
 date: 2021-11-19
 tags:
-  - customer support
+  - business
 layout: layouts/post.njk
 ---
 

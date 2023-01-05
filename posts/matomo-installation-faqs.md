@@ -3,7 +3,8 @@ title:  Matomo specs and dependencies
 description: Beginners Guide How to Install Matomo analytics
 date: 2021-11-12
 tags:
-  - analytics
+  - web analytics
+  - matomo
 layout: layouts/post.njk
 ---
 

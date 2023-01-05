@@ -4,6 +4,7 @@ description:
 date: 2021-06-01
 tags:
   - drupal
+  - jobs
 layout: layouts/post.njk
 ---
 

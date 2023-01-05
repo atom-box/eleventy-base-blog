@@ -3,7 +3,7 @@ title: Examples of Site Analytics Tags
 description:
 date: 2021-11-01
 tags:
-  - analytics
+  - web analytics
 layout: layouts/post.njk
 ---
 

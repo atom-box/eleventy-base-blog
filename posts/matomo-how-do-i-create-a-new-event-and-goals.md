@@ -4,7 +4,7 @@ description:  Taking notes while listening to Ronan Chardoneau videos
 date: 2022-11-12
 tags:
   - web analytics
-  - data
+  - matomo
 
 layout: layouts/post.njk
 ---

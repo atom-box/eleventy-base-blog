@@ -3,8 +3,7 @@ title: Twitter using
 description: Notes condensed from listening to changelog podcast
 date: 2020-03-03
 tags:
-  - data  
-  - social  
+  - books  
 layout: layouts/post.njk
 ---
 

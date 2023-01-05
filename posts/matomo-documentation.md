@@ -3,7 +3,8 @@ title: Troubleshooting Tips for Matomo Web Page Analytics
 description:
 date: 2021-11-14
 tags:
-  - analytics
+  - web analytics
+  - matomo
 layout: layouts/post.njk
 ---
 

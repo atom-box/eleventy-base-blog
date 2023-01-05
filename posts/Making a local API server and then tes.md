@@ -3,7 +3,8 @@ title:  Start a local Node API server and then test it
 description:
 date: 2021-09-21
 tags:
-  - api
+  - linux
+  - troubleshooting
 layout: layouts/post.njk
 ---
 

@@ -4,7 +4,7 @@ description:  Taking notes
 date: 2022-12-09
 tags:
   - web analytics
-  - data
+  - matomo
 
 layout: layouts/post.njk
 ---
