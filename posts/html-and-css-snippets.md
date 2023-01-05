@@ -3,7 +3,7 @@ title: HTML and CSS snippets
 description:
 date: 2020-10-17
 tags:
-  - css
+  - javascript
 layout: layouts/post.njk
 ---
 

@@ -4,7 +4,6 @@ description:  Taking notes in case I host a webinar
 date: 2022-11-27
 tags:
   - web analytics
-  - data
 
 layout: layouts/post.njk
 ---

@@ -3,7 +3,7 @@ title: Exercise Every Day
 description:
 date: 2019-06-17
 tags:
-  - exercise
+  - fitness
 layout: layouts/post.njk
 ---
 

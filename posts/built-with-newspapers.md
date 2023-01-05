@@ -4,7 +4,6 @@ description: foo bar and baz
 date: 2022-02-02
 tags:
   - web analytics
-  - privacy
 layout: layouts/post.njk
 ---
 

@@ -4,7 +4,6 @@ description:
 date: 2021-05-21
 tags:
   - drupal
-  - ux
 layout: layouts/post.njk
 ---
 

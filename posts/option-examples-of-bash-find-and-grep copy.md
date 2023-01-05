@@ -4,7 +4,6 @@ description:
 date: 2021-10-04
 tags:
   - linux
-  - bash
 layout: layouts/post.njk
 ---
 

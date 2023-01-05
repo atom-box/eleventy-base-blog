@@ -4,10 +4,8 @@ description:
 date: 2021-12-03
 tags:
   - javascript
-  - devtools
   - web analytics
   - computer worksheet homework
-  - AP Computer Science Principles
 layout: layouts/post.njk
 ---
 ## Use Devtools to see what the browser is storing

@@ -3,7 +3,7 @@ title: Pull requests checklist!
 description: This is a post on My Blog about win-win survival strategies.
 date: 2021-03-20
 tags:
-  - git
+  - linux
   - hacktoberfest
 layout: layouts/post.njk
 ---

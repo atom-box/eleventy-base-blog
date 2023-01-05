@@ -3,8 +3,7 @@ title: De-Google With the Creators of Plausible
 description: Notes condensed from listening to changelog podcast
 date: 2021-11-12
 tags:
-  - analytics  
-  - privacy  
+  - web analytics  
 layout: layouts/post.njk
 ---
 

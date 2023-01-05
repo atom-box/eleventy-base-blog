@@ -3,7 +3,7 @@ title: Website of Representative Slotkin
 description:
 date: 2021-12-09
 tags:
-  - built with
+  - web analytics
   - drupal
 layout: layouts/post.njk
 ---

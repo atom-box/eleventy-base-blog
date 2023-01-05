@@ -3,7 +3,7 @@ title: Many Many Git Syntax Examples
 description:
 date: 2020-03-15
 tags:
-  - git
+  - linux
 layout: layouts/post.njk
 ---
 

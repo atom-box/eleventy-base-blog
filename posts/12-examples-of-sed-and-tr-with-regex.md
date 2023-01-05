@@ -3,8 +3,7 @@ title: Nine Examples of sed and tr with Regular Expressions
 description:
 date: 2019-09-17
 tags:
-  - regex
-  - bash
+  - linux
 layout: layouts/post.njk
 ---
 
