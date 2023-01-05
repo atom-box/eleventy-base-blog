@@ -3,7 +3,6 @@ title: Nice Frontend JS/CSS
 description:
 date: 2021-09-11
 tags:
-  - css
   - javascript
 layout: layouts/post.njk
 ---

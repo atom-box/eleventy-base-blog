@@ -4,7 +4,6 @@ description: This is an index of tech podcast episodes.  It has the best intervi
 date: 2022-02-25
 tags:
   - business
-  - opensource
 layout: layouts/post.njk
 ---
 

@@ -3,8 +3,7 @@ title: Installing Eleventy
 description:
 date: 2021-09-17
 tags:
-  - apache
-  - deploy
+  - linux
 layout: layouts/post.njk
 ---
 
