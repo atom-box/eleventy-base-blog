@@ -80,5 +80,17 @@ To view that log, the command is mysqldumpslow -t 10 mysql-slow.log > mysqldumps
 This would give the top 10 queries, sorted by time they took
 
 
+## Errors I got today, January 11, 2023
+These happened after I performed the Matomo Three Step Update 
+1. Permissions of ownership  
+These were fixed by following the interface suggestions for chown and chmod  
+2. DB update needed
+This was also solved when the interface suggested I use 
+```
+$ sudo php /var/www/littlefurnace.com/matomo/console core:update
+```
+3. The directory "/var/www/littlefurnace.com/matomo/tmp/cache/tracker/" does not exist and could not be created.
+This is the classic one we receive once a day at work in Contact Matomo inbox.  
+Solve with `$ sudo chown -R www-data:www-data /var/www/littlefurnace.com/matomo/tmp/*`
 
 
