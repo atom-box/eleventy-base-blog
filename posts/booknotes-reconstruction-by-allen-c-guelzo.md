@@ -1,5 +1,5 @@
 ---
-title: Reconstruction; A Concise History  
+title: Booknotes - Reconstruction; A Concise History  
 description:  Book review of a short, excellent history book  
 date: 2022-09-27
 tags:

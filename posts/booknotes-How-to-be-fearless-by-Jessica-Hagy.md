@@ -1,10 +1,11 @@
 ---
-title: 7 Simple Steps by Jessica Hagy
+title: Booknotes: 7 Simple Steps by Jessica Hagy
 description:
-date: 2019-03-15
+date: 2023-01-18
 tags:
   - books
   - business
+  - GTD
 layout: layouts/post.njk
 ---
 
