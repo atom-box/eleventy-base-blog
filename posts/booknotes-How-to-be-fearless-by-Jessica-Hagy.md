@@ -1,5 +1,5 @@
 ---
-title: Booknotes: 7 Simple Steps by Jessica Hagy
+title: Booknotes 7 Simple Steps by Jessica Hagy
 description:
 date: 2023-01-18
 tags:
