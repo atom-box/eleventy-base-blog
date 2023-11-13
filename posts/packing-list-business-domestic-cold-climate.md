@@ -10,7 +10,8 @@ layout: layouts/post.njk
 ## Introduction  
 The following list is everything I packed for a one week trip to work in Queens New York, USA.  
   
-This list is untested. Size: one small book backpack & one gym duffel   
+This list was tested and revised posst-trip. 
+Size: one small book backpack & one gym duffel   
 
 ## Clothes  
 ### Wear on plane
@@ -60,19 +61,11 @@ printed on paper my business with the Bronx High School of Science
 photocopy of the passport  
 print out on a sheet of paper of all the flights  
 vaccination record including proof of COVID 19 vaccinations  
-(a way to check email)  
-(review that Lyft or similar app works on phone)
+(how will you check email)  
+(which apps, like bike rental or subway schedules are needed?)
  6 power bars or nuts, in addition to backpack food  
-ibuprofen  
-toothpaste
-toothbrush
-deoderant
-soap
-razor
-nail clippers
-disinfectant ointment and bandaids
-floss
 cord for clothesline  
 headlamp for plane (check batteries) 
 a stack of cash 
 covid n95 mask (1)  
+Toiletries: (ibuprofen , toothpaste, toothbrush, deoderant, soap, razor, nail clippers, disinfectant ointment and bandaids, floss)
