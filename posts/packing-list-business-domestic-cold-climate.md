@@ -8,7 +8,7 @@ layout: layouts/post.njk
 ---
 
 ## Introduction  
-The following list is everything I packed for a one week trip to work in Queens New York, USA.  
+The following list is everything I packed for a one week trip to work in Queens New York, USA.  It was comfortable after dark and also while riding the rental bikes over the East River bridges in the wind.
   
 This list was tested and revised post-trip. 
 Size: one small book backpack & one gym duffel   
@@ -31,6 +31,13 @@ moleskine: exchanging contact info with new friends, jotting names/directions fo
 
 ### Backpack
 thin puffy top jacket
+scarf (big gray one)
+gloves
+knit hat
+baseball hat
+rain pants (if you will bike)
+rain shell
+just an umbrella (if you only walk)
 laptop *phone number written on casing
 LAPTOP CHARGER
 headphones
@@ -55,7 +62,6 @@ chewing gum 2 packs
 5 underpants
 2 cotton tshirts 
 pajamas
-umbrella instead of shell
 headphones for meetings (w/ mic)
 printed on paper my business with the Bronx High School of Science
 photocopy of the passport  
