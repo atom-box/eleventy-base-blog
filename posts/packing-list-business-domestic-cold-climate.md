@@ -10,7 +10,7 @@ layout: layouts/post.njk
 ## Introduction  
 The following list is everything I packed for a one week trip to work in Queens New York, USA.  
   
-This list was tested and revised posst-trip. 
+This list was tested and revised post-trip. 
 Size: one small book backpack & one gym duffel   
 
 ## Clothes  
